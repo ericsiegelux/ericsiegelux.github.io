@@ -1,15 +1,10 @@
-body {
-  font-family: Montserrat;
-  font-weight: 400;
-}
 * {
   box-sizing: border-box;
+  font-family: Montserrat;
 }
-
-#top{
-  display:flex;
-  height:50px;
-   }
+body {
+  font-weight: 400;
+}
 
 nav {
   padding: 30px;
@@ -28,7 +23,7 @@ nav ul li a {
   display: inline-block;
   outline: none;
   color: #1f2227;
-  font-size: 16px;
+  font-size: 25px;
   text-decoration: none;
   letter-spacing: 0.04em;
 }
@@ -142,3 +137,17 @@ nav ul li a:hover {
 .hidden {
   display: none;
 }
+
+#logo{
+  margin-left: 0px;
+  margin-top: -90px;
+}
+
+#top{
+  display:flex;
+  height:50px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  width: 100%;
+   }
