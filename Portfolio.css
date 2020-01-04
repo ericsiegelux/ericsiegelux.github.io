@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: Montserrat;
+  font-family: "Open Sans";
 }
 body {
   font-weight: 400;
@@ -31,6 +31,13 @@ nav ul li a:hover {
   color: #808080;
   text-decoration: none;
 }
+
+#logo{
+  margin-left: -10px;
+  margin-top: -60px;
+  /*margin-top: -90px;*/
+}
+
 @media screen and (max-width: 700px) {
   .nav-container {
     position: fixed;
@@ -39,9 +46,13 @@ nav ul li a:hover {
     height: 100%;
     width: 100%;
     z-index: 1;
-    background: #1f2227;
+    background: white;
+ /*   background: black;*/
     opacity: 0;
     transition: all 0.2s ease;
+  }
+  .nav-container img{
+    display: flex;
   }
   .nav-container ul {
     position: absolute;
@@ -74,7 +85,8 @@ nav ul li a:hover {
   .nav-container ul li a {
     padding: 10px 25px;
     opacity: 0;
-    color: #fff;
+    color: black;
+    /*color: #fff;*/
     font-size: 24px;
     font-weight: 600;
     transform: translateY(-20px);
@@ -90,12 +102,14 @@ nav ul li a:hover {
     cursor: pointer;
     z-index: 9999;
     border-radius: 50%;
+    color:black;
   }
   .nav-open i {
     display: block;
     width: 20px;
     height: 2px;
-    background: #1f2227;
+    background: black;
+    /*background: #1f2227;*/
     border-radius: 2px;
     margin-left: 14px;
   }
@@ -109,12 +123,18 @@ nav ul li a:hover {
   .nav-open i:nth-child(3) {
     margin-top: 4px;
   }
+  #logo{
+  margin-left: -10px;
+  margin-top: -30px;
+  /*margin-top: -90px;*/
+}
 }
 #nav:checked + .nav-open {
   transform: rotate(45deg);
 }
 #nav:checked + .nav-open i {
-  background: #fff;
+  color: black;
+  /*background: #fff;*/
   transition: transform 0.2s ease;
 }
 #nav:checked + .nav-open i:nth-child(1) {
@@ -138,10 +158,6 @@ nav ul li a:hover {
   display: none;
 }
 
-#logo{
-  margin-left: 0px;
-  margin-top: -90px;
-}
 
 #top{
   display:flex;
@@ -209,3 +225,10 @@ nav ul li a:hover {
   height: 200px;
   width:100%;
 }
+
+
+
+
+
+
+
