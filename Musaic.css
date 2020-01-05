@@ -171,7 +171,6 @@ nav ul li a:hover {
   display: none;
 }
 
-
 #top{
   display:flex;
   border-style: solid;
@@ -179,15 +178,54 @@ nav ul li a:hover {
   border-color: red;
   width: 100%;
   margin-top: -10px;
-  padding-left: 25px;
-  font-size: 50px;
+  flex-direction: row;
   }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   #top{
-    font-size: 30px;
+    flex-direction: column;
   }
 }
+
+#Profile_Pic{
+  display: flex;
+  width: 50%;
+}
+
+#Profile_Pic img{
+  display: flex;
+  width: 100%;
+}
+
+#Statement{
+  display: flex;
+  font-size: 20px;
+  width: 50%;
+  padding: 5%;
+}
+
+@media screen and (max-width: 900px) {
+  #Profile_Pic{
+  display: flex;
+  width: 100%;
+}
+
+#Profile_Pic img{
+  display: flex;
+  width: 100%;
+}
+
+#Statement{
+  display: flex;
+  font-size: 20px;
+  width: 100%;
+}
+}
+
+
+
+
+
 
 
 #work{
@@ -195,9 +233,10 @@ nav ul li a:hover {
   border-style: solid;
   border-width: 2px;
   border-color: red;
-  margin-top: 100px;
+  margin-top: 50px;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 #gallery{
@@ -205,38 +244,63 @@ nav ul li a:hover {
   border-style: solid;
   border-width: 2px;
   border-color: red;
-  margin-top: 10px;
   width: 100%;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-@media screen and (max-width: 700px) {
-  #gallery{
-    flex-direction: column;
-  }
-}
-
-#musaic{
+.column_section{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
   border-style: solid;
   border-width: 2px;
   border-color: blue;
-  height: 200px;
-  width:100%;
-  background-image: url("bluenote.png");
-  background-position: center; 
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  z-index: 10;
 }
+
+ .column_section span{
+    margin-bottom: 20px;
+  }
  
 .work_item{
   display: flex;
   border-style: solid;
   border-width: 2px;
   border-color: blue;
-  height: 200px;
   width:100%;
+  padding: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
 }
+
+@media screen and (max-width: 700px) {
+  #gallery{
+    flex-direction: column;
+  }
+  .column_section span{
+    margin-bottom: 0px;
+  }
+  .work_item{
+    margin-bottom: 20px;
+  }
+}
+
+
+#inspiration{
+  display: flex;
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  margin-top: 50px;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+
