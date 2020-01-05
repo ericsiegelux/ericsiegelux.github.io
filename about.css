@@ -213,7 +213,9 @@ nav ul li a:hover {
 
 #Profile_Pic img{
   display: flex;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 #Statement{
