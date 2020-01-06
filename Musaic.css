@@ -190,7 +190,7 @@ nav ul li a:hover {
 
 #Musaic_Cover_Photo{
   display: flex;
-  width: 50%;
+  max-width: 100%;
 }
 
 #Musaic_Cover_Photo img{
@@ -222,10 +222,6 @@ nav ul li a:hover {
   width: 100%;
 }
 }
-
-
-
-
 
 
 
