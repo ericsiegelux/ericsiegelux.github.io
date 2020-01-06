@@ -205,23 +205,6 @@ nav ul li a:hover {
   padding: 5%;
 }
 
-@media screen and (max-width: 900px) {
-  #Musaic_Cover_Photo{
-  display: flex;
-  width: 100%;
-}
-
-#Musaic_Cover_Photo img{
-  display: flex;
-  width: 100%;
-}
-
-#Statement{
-  display: flex;
-  font-size: 20px;
-  width: 100%;
-}
-}
 
 
 
