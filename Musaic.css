@@ -4,6 +4,7 @@
 }
 body {
   font-weight: 400;
+  background-color: white;
 }
 
 nav {
@@ -187,14 +188,14 @@ nav ul li a:hover {
   }
 }
 
-#Profile_Pic{
+#Musaic_Cover_Photo{
   display: flex;
   width: 50%;
 }
 
-#Profile_Pic img{
+#Musaic_Cover_Photo img{
   display: flex;
-  width: 100%;
+  max-width: 100%;
 }
 
 #Statement{
@@ -205,12 +206,12 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 900px) {
-  #Profile_Pic{
+  #Musaic_Cover_Photo{
   display: flex;
   width: 100%;
 }
 
-#Profile_Pic img{
+#Musaic_Cover_Photo img{
   display: flex;
   width: 100%;
 }
@@ -298,9 +299,58 @@ nav ul li a:hover {
   border-width: 2px;
   border-color: red;
   margin-top: 50px;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   width: 100%;
 }
+
+#inspiration_pic{
+  display: flex;
+  align-items: center;
+}
+
+#inspiration_pic img{
+  display: flex;
+  max-width: 100%;
+}
+
+#Inspiration_Statement{
+  display: flex;
+  font-size: 20px;
+  width: 100%;
+  padding: 5%;
+}
+
+@media screen and (max-width: 900px) {
+    #inspiration_pic{
+    display: flex;
+    max-width: 100%;
+  }
+
+  #inspiration_pic img{
+    display: flex;
+    width: 100%;
+  }
+
+  #Inspiration_Statement{
+    display: flex;
+    font-size: 20px;
+    width: 100%;
+  }
+
+}
+
+#Ram_Pitch{
+  display: flex;
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
 
 
