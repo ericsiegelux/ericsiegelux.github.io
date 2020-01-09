@@ -206,6 +206,7 @@ nav ul li a:hover {
   padding: 5%;
 }
 
+
 @media screen and (max-width: 900px) {
   #Profile_Pic{
   display: flex;
