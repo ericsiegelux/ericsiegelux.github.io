@@ -293,12 +293,12 @@ nav ul li a:hover {
   align-items: center;
 }
 
-.content_pic{
+#content_pic{
   display: flex;
   align-items: center;
 }
 
-.cotent_pic img{
+#content_pic img{
   display: flex;
   max-width: 100%;
 }
@@ -311,20 +311,20 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 900px) {
-    .contenet_pic{
-    display: flex;
-    max-width: 100%;
-  }
+    #content_pic{
+      display: flex;
+      max-width: 100%;
+    }
 
- .contenet_pic img{
-    display: flex;
-    width: 100%;
-  }
+    #content_pic img{
+      display: flex;
+      max-width: 100%;
+    }
 
-  .contenet_statement{
-    display: flex;
-    font-size: 20px;
-    width: 100%;
+    .contenet_statement{
+      display: flex;
+      font-size: 20px;
+      width: 100%;
   }
 
 }
