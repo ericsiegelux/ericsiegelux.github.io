@@ -180,6 +180,7 @@ nav ul li a:hover {
   width:90%;
   margin:50px 5%;
   margin-top: -10px;
+  flex-direction: column;
   }
 
 @media screen and (max-width: 900px) {
@@ -188,36 +189,20 @@ nav ul li a:hover {
   }
 }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+#top a:link{
+	color:black;
+	text-decoration: none;
 }
 
-input[type=submit] {
-  background-color: blue;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+#top a:hover{
+	color:black;
+	text-decoration: none;
 }
 
-input[type=submit]:hover {
-  background-color: black;
+#top a:visited{
+	color:black;
+	text-decoration: none;
 }
-
-.container {
-  border-radius: 5px;
-  padding: 20px;
-}
-
-
 
 
 
