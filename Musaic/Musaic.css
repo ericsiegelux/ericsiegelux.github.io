@@ -296,6 +296,7 @@ nav ul li a:hover {
 #content_pic{
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #content_pic img{
@@ -319,9 +320,10 @@ nav ul li a:hover {
     #content_pic img{
       display: flex;
       max-width: 100%;
+      justify-content: center;
     }
 
-    .contenet_statement{
+    .content_statement{
       display: flex;
       font-size: 20px;
       width: 100%;
@@ -346,7 +348,25 @@ nav ul li a:hover {
 }
 
 
+#style_guide_pic{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+#style_guide_pic img{
+  display: flex;
+  max-width: 75%;
+}
+
+@media only screen and (max-width: 700px) {
+    #style_guide_pic img{
+      display: flex;
+      max-width: 100%;
+      justify-content: center;
+    }
+
+}
 
 
 
