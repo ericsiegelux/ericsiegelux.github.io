@@ -341,7 +341,8 @@ nav ul li a:hover {
 
 #mvp_wireframe img{
   display: flex;
-  max-width:75%;
+  max-width:100%;
+  align-items: center;
 }
 
 
