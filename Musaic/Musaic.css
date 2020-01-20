@@ -4,7 +4,6 @@
 }
 body {
   font-weight: 400;
-  background-color: white;
 }
 
 #top_container{
@@ -30,10 +29,11 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 3%;
 }
 #logo{
   display: flex;
-  margin-left: 10px;
+  margin-left: 3.5%;
   align-items: flex-start;
   margin-right: auto;
  cursor: pointer;
@@ -58,6 +58,24 @@ body {
 .menu a {
   justify-content: space-between;
   color: #000000;
+  text-decoration: none;
+}
+
+.menu a:link{
+  color:black;
+}
+
+.menu a:visited{
+  color:black;
+}
+
+.menu a:hover{
+  color:#808080;
+  text-decoration: none;
+}
+
+.menu a:active{
+  color:green;
   text-decoration: none;
 }
 
@@ -86,6 +104,9 @@ body {
 }
 .show {
   display: flex;
+  position: relative;
+  top: -20px;
+  margin: 5px;
 }
 
 @media screen and (min-width: 700px) { 
@@ -102,6 +123,7 @@ body {
     justify-content: center;
     width: 10vw;
     margin:7px;
+    top:1%;
   }
 }
 
