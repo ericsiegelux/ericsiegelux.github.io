@@ -200,15 +200,28 @@ body {
     transition:0.3s;
 }
 
+#musaic h2{
+  display: none;
+}
+
+#musaic:hover h2{
+  display: block;
+  color: white;
+   text-align: center;
+}
+
 #musaic p{
   display: none;
 }
 
 #musaic:hover p{
   display: block;
-  color: red;
-  font-size: 50px;
+  color: white;
+  align-content: center;
+  justify-content: center;
+   text-align: center;
 }
+
 .work_item{
   display: flex;
   border-style: solid;

@@ -309,6 +309,27 @@ body {
   cursor: pointer;
 }
 
+#logo_sketch{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo_sketch a{
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#logo_sketch a img{
+  display: flex;
+  max-width: 75%;
+  cursor: pointer;
+}
+
 
 #style_guide_pic{
   display: flex;
