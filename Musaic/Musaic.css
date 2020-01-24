@@ -292,6 +292,30 @@ body {
   padding: 5%;
 }
 
+.content_statement p{
+	max-width: 100%;
+	text-align: center;
+}
+
+.content_statement p a:link{
+  color:#00BEE4;
+  text-decoration: none;
+}
+
+.content_statement p a:visited{
+  color:#00BEE4;
+}
+
+.content_statement p a:hover{
+  color:#808080;
+  text-decoration: none;
+}
+
+.content_statement p a:active{
+  color:green;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 900px) {
     #content_pic{
       display: flex;
