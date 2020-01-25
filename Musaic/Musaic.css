@@ -338,6 +338,20 @@ body {
 
 }
 
+input[type=checkbox] + label img {
+    transition: all 300ms 0ms ease-in-out;
+    /* width: 50px; */
+    cursor: zoom-in;
+}
+
+input[type=checkbox]:checked + label img {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    cursor: zoom-out;
+}
+
+
+
 #mvp_wireframe{
   display: flex;
   flex-direction: column;
