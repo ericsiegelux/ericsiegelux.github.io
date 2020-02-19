@@ -337,6 +337,39 @@ body {
 
 }
 
+#tableau{
+  display: flex;
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  width: 90%;
+  height: 1000px;
+  margin: 50px 5% 0px 5%;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tableau_link{
+  display: none;
+}
+
+iframe{
+  display: flex;
+}
+
+@media screen and (max-width: 1100px) {
+  #tableau {
+    height: 100%;
+  }
+  iframe{
+      display: none;
+    }
+  #tableau_link{
+    display: flex;
+  }
+}
+
+
 
 #mvp_wireframe{
   display: flex;
