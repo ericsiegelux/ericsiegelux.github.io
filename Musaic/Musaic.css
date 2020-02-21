@@ -343,7 +343,7 @@ body {
   border-width: 2px;
   border-color: red;
   width: 90%;
-  height: 2000px;
+  height: 3000px;
   margin: 50px 5% 0px 5%;
   flex-direction: column;
   align-items: center;
@@ -351,6 +351,7 @@ body {
 
 #tableau .content_statement{
   flex-direction: column;
+  margin-bottom: -25px;
 }
 
 #tableau_link{
