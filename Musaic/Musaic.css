@@ -465,6 +465,18 @@ iframe{
 
 }
 
+.row_improvements{
+  flex-direction: column;
+  margin-top: -25px;
+}
+.individual_improvements{
+  flex-direction: column;
+  margin: 25px;
+}
+.individual_improvements h4{
+  text-align: center;
+}
+
 
 
 
