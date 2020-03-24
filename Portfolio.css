@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Open Sans";
+  font-family: "Oxygen";
 }
 body {
   font-weight: 400;
@@ -130,11 +130,12 @@ body {
 
 #top{
   display:flex;
-  border-style: solid;
+  flex-direction: column;
+  /*border-style: solid;
   border-width: 2px;
-  border-color: red;
+  border-color: red;*/
   width:90%;
-  margin:-10px 5% 0px 5%;
+  margin:-75px 5% 0px 5%;
   padding: 5px 25px;
   font-size: 24px;
   }
@@ -145,14 +146,13 @@ body {
   }
 }
 
-
 #work{
   display: flex;
-  border-style: solid;
+  /*border-style: solid;
   border-width: 2px;
-  border-color: red;
+  border-color: red;*/
   width:90%;
-  margin:50px 5%;
+  margin:0px 5% 100px 5%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -162,9 +162,9 @@ body {
 
 #gallery{
   display: flex;
-  border-style: solid;
+  /*border-style: solid;
   border-width: 2px;
-  border-color: red;
+  border-color: red;*/
   margin-top: 10px;
   width: 100%;
   flex-direction: row;
@@ -181,9 +181,9 @@ body {
 #musaic{
   display: flex;
   position: relative;
-  border-style: solid;
+  /*border-style: solid;
   border-width: 2px;
-  border-color: blue;
+  border-color: blue;*/
   height: 200px;
   width:100%;
   background-image: url("bluenote.png");
@@ -230,9 +230,4 @@ body {
   height: 200px;
   width:100%;
 }
-
-
-
-
-
 

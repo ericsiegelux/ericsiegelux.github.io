@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Open Sans";
+  font-family: "Oxygen";
 }
 body {
   font-weight: 400;
@@ -134,25 +134,27 @@ body {
   border-width: 2px;
   border-color: red;
   width:90%;
-  margin:50px 5%;
-  margin-top: -10px;
+  margin:-75px 5% 0px 5%;
   flex-direction: row;
   }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   #top{
     flex-direction: column;
   }
 }
 
 #Profile_Pic{
-  display: flex;
+  flex:1;
   width: 50%;
 }
 
 #Profile_Pic img{
   display: flex;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:100%;
+  min-width: 100%;
 }
 
 #Statement{
@@ -163,21 +165,22 @@ body {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   #Profile_Pic{
   display: flex;
   width: 100%;
 }
 
 #Profile_Pic img{
-  display: flex;
+  flex:1;
   margin-left: auto;
   margin-right: auto;
-  max-width:100%;
+  max-width:75%;
+  min-width:75%;
 }
 
 #Statement{
-  display: flex;
+  flex:1;
   font-size: 20px;
   width: 100%;
 }

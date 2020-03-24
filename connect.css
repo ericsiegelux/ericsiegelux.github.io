@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Open Sans";
+  font-family: "Oxygen";
 }
 body {
   font-weight: 400;
@@ -133,8 +133,7 @@ body {
   border-width: 2px;
   border-color: red;
   width:90%;
-  margin:50px 5%;
-  margin-top: -10px;
+  margin:-75px 5% 0px 5%;
   flex-direction: column;
   }
 
