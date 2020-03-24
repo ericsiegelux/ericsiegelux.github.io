@@ -382,14 +382,14 @@ body {
 }
 
 
-#style_guide_pic{
+#big_pics{
   display: flex;
   align-items: center;
   justify-content: center;
   align-content: center;
 }
 
-#style_guide_pic a{
+#big_pics a{
   display: flex;
   max-width: 100%;
   cursor: pointer;
@@ -399,7 +399,7 @@ body {
 }
 
 
-#style_guide_pic a img{
+#big_pics a img{
   display: flex;
   max-width: 75%;
   cursor: pointer;
@@ -409,10 +409,10 @@ body {
 }
 
 @media only screen and (max-width: 700px) {
-    #style_guide_pic{
+    #big_pics{
       cursor: pointer;
     }
-    #style_guide_pic a img{
+    #big_pics a img{
       display: flex;
       max-width: 100%;
       justify-content: center;
