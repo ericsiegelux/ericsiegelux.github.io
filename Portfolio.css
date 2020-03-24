@@ -222,6 +222,50 @@ body {
    text-align: center;
 }
 
+#sdt{
+  display: flex;
+  position: relative;
+  /*border-style: solid;
+  border-width: 2px;
+  border-color: blue;*/
+  height: 200px;
+  width:100%;
+  background-image: url("sdt.png");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#sdt:hover{
+   background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+    transition:0.3s;
+}
+
+#sdt h2{
+  display: none;
+}
+
+#sdt:hover h2{
+  display: block;
+  color: white;
+   text-align: center;
+}
+
+#sdt p{
+  display: none;
+}
+
+#sdt:hover p{
+  display: block;
+  color: white;
+  align-content: center;
+  justify-content: center;
+   text-align: center;
+}
+
 .work_item{
   display: flex;
   border-style: solid;
