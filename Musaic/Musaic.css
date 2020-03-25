@@ -264,9 +264,9 @@ body {
 
 .content{
   display: flex;
-  border-style: solid;
+ /* border-style: solid;
   border-width: 2px;
-  border-color: red;
+  border-color: red;*/
   width: 90%;
   margin: 50px 5% 0px 5%;
   flex-direction: column;
