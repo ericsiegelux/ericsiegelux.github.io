@@ -30,6 +30,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   margin-right: 3%;
+  background-color: white;
 }
 #logo{
   display: flex;
@@ -129,9 +130,9 @@ body {
 
 #top{
   display:flex;
-  border-style: solid;
+  /*border-style: solid;
   border-width: 2px;
-  border-color: red;
+  border-color: red;*/
   width:90%;
   margin:-75px 5% 0px 5%;
   flex-direction: column;
