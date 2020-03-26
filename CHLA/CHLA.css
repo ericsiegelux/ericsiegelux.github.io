@@ -161,6 +161,11 @@ body {
   max-width: 100%;
 }
 
+#Musaic_Cover_Photo img{
+  display: flex;
+  max-width: 100%;
+}
+
 #Statement{
   display: flex;
   flex-direction: column;
@@ -260,9 +265,9 @@ body {
 
 .content{
   display: flex;
- /* border-style: solid;
+  border-style: solid;
   border-width: 2px;
-  border-color: red;*/
+  border-color: red;
   width: 90%;
   margin: 50px 5% 0px 5%;
   flex-direction: column;
@@ -378,14 +383,14 @@ body {
 }
 
 
-#big_pics{
+#style_guide_pic{
   display: flex;
   align-items: center;
   justify-content: center;
   align-content: center;
 }
 
-#big_pics a{
+#style_guide_pic a{
   display: flex;
   max-width: 100%;
   cursor: pointer;
@@ -395,7 +400,7 @@ body {
 }
 
 
-#big_pics a img{
+#style_guide_pic a img{
   display: flex;
   max-width: 75%;
   cursor: pointer;
@@ -405,10 +410,10 @@ body {
 }
 
 @media only screen and (max-width: 700px) {
-    #big_pics{
+    #style_guide_pic{
       cursor: pointer;
     }
-    #big_pics a img{
+    #style_guide_pic a img{
       display: flex;
       max-width: 100%;
       justify-content: center;

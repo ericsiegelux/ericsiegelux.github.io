@@ -147,8 +147,10 @@ body {
 }
 
 #Profile_Pic{
-  flex:1;
-  width: 50%;
+  display: flex;
+  align-items: center;
+ /* flex:1;
+  width: 50%;*/
 }
 
 #big_screen_link{
@@ -162,11 +164,13 @@ body {
 }
 
 #Profile_Pic img{
-  display: flex;
+	display: flex;
+  max-width: 100%;
+  /*display: flex;
   margin-left: auto;
   margin-right: auto;
   max-width:100%;
-  min-width: 100%;
+  min-width: 100%;*/
 }
 
 #Statement{
@@ -188,8 +192,8 @@ body {
   flex:1;
   margin-left: auto;
   margin-right: auto;
-  max-width:50%;
-  min-width:50%;
+/*  max-width:50%;
+  min-width:50%;*/
 }
 
 #big_screen_link{
