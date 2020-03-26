@@ -296,16 +296,16 @@ body {
 }
 
 .content_statement p a:link{
-  color:#00BEE4;
+  color:#06c;
   text-decoration: none;
 }
 
 .content_statement p a:visited{
-  color:#00BEE4;
+  color:#06c;
 }
 
 .content_statement p a:hover{
-  color:#808080;
+  color:#00BEE4;
   text-decoration: none;
 }
 
