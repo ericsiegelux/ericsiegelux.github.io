@@ -138,12 +138,12 @@ body {
   flex-direction: row;
   }
 
-#Musaic_Cover_Photo{
+#Cover_Photo{
   display: flex;
   align-items: center;
 }
 
-#Musaic_Cover_Photo img{
+#Cover_Photo img{
   display: flex;
   max-width: 100%;
   cursor: pointer;
@@ -156,12 +156,12 @@ body {
   }
 }
 
-#Musaic_Cover_Photo{
+#Cover_Photo{
   display: flex;
   max-width: 100%;
 }
 
-#Musaic_Cover_Photo img{
+#Cover_Photo img{
   display: flex;
   max-width: 100%;
 }
