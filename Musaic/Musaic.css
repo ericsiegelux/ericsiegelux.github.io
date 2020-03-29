@@ -265,10 +265,14 @@ body {
   width: 90%;
   margin: 50px 5% 0px 5%;
   flex-direction: column;
-  align-items: center;
+ /* align-items: center;*/
 }
 
-
+.content h2{
+  display: flex;
+  padding:  0px 5%;
+  flex-direction: column;
+}
 
 #content_pic{
   display: flex;
@@ -292,7 +296,7 @@ body {
 .content_statement{
   display: flex;
   font-size: 20px;
-  padding: 5%;
+  padding: 0px 5%;
   flex-direction: column;
 }
 
