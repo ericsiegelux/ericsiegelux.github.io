@@ -149,7 +149,6 @@ body {
   cursor: pointer;
 }
 
-
 @media screen and (max-width: 900px) {
   #top{
     flex-direction: column;
@@ -291,6 +290,13 @@ body {
 #content_pic img{
   display: flex;
   max-width: 100%;
+}
+
+#content_pic img:hover{
+    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    transition-duration: 0.25s;
 }
 
 #content_pic p a:link{

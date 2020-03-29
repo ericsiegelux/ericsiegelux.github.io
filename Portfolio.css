@@ -196,9 +196,16 @@ body {
   align-items: center;
 }
 
+#gallery #musaic:hover{
+    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    transition-duration: 0.25s;
+}
+
 #musaic:hover{
    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
-    transition:0.3s;
+    transition:0.25s;
 }
 
 #musaic h2{
@@ -240,9 +247,16 @@ body {
   align-items: center;
 }
 
+#gallery #sdt:hover{
+    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    transition-duration: 0.25s;
+}
+
 #sdt:hover{
    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
-    transition:0.3s;
+    transition:0.25s;
 }
 
 #sdt h2{

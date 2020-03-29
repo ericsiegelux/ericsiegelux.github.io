@@ -149,7 +149,6 @@ body {
   cursor: pointer;
 }
 
-
 @media screen and (max-width: 900px) {
   #top{
     flex-direction: column;
@@ -283,6 +282,13 @@ body {
   max-width: 100%;
 }
 
+#content_pic img:hover {
+    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    transition-duration: 0.25s;
+}
+
 .content_statement{
   display: flex;
   font-size: 20px;
@@ -355,6 +361,13 @@ body {
   cursor: pointer;
 }
 
+#mvp_wireframe img:hover {
+    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    transition-duration: 0.25s;
+}
+
 /*Used for Intial User Flow AND Logo Sketch*/
 #logo_sketch{
   display: flex;
@@ -375,6 +388,13 @@ body {
   display: flex;
   max-width: 75%;
   cursor: pointer;
+}
+
+#logo_sketch img:hover {
+    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    transition-duration: 0.25s;
 }
 
 
@@ -403,6 +423,14 @@ body {
   justify-content: center;
   align-content: center;
 }
+
+#big_pics img:hover {
+    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    transition-duration: 0.25s;
+}
+
 
 @media only screen and (max-width: 700px) {
     #big_pics{
