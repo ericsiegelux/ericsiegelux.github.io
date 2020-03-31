@@ -322,6 +322,7 @@ body {
 .content_statement{
   display: flex;
   font-size: 20px;
+  /*font-size: 18px;*/
   padding:0px 5%;
   flex-direction: column;
 }
