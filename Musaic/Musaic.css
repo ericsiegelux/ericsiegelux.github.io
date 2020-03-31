@@ -45,7 +45,7 @@ body {
   align-items: center;
   align-content: center;
   justify-content: center;
-  font-size: 25px;
+  font-size: 24px;
   line-height: 1em;
 }
 .menu:first-child {
@@ -163,14 +163,14 @@ body {
 #Statement{
   display: flex;
   flex-direction: column;
-  font-size: 20px;
+  font-size: 18px;
   width: 50%;
   padding: 5%;
 }
 
 #Statement span{
 	display: block;
-	font-size:30px;
+	font-size:27px;
 	align-content: center;
   justify-content: center;
   /*text-align: center;*/
@@ -295,7 +295,7 @@ body {
 
 .content_statement{
   display: flex;
-  font-size: 20px;
+  font-size: 18px;
   padding: 0px 5%;
   flex-direction: column;
 }
@@ -340,7 +340,7 @@ body {
 
     .content_statement{
       display: flex;
-      font-size: 20px;
+      font-size: 18px;
       width: 100%;
   }
 
