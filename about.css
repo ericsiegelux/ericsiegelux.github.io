@@ -166,7 +166,7 @@ body {
 
 #Profile_Pic #ppb{
 	display: flex;
-  max-width: 95%;
+  max-width: 65%;
   /*display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -188,11 +188,11 @@ body {
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
   #Profile_Pic{
   display: flex;
   flex-direction: row;
-  width: 100%;
+  /*width: 100%;*/
   justify-content: center;
   }
 
