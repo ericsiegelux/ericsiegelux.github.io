@@ -34,7 +34,7 @@ body {
 }
 #logo{
   display: flex;
-  margin-left: 3.5%;
+  margin-left: 5.5%;
   align-items: flex-start;
   margin-right: auto;
  cursor: pointer;
@@ -291,12 +291,14 @@ body {
 #content_pic img{
   display: flex;
   max-width: 100%;
+   margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 #content_pic img:hover{
-    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+     -webkit-box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
+    -moz-box-shadow: 10px 37px 47px -42px rgba(55,55,55,1);
+    box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
     transition-duration: 0.25s;
 }
 
@@ -425,98 +427,6 @@ body {
 
 }
 
-
-
-#mvp_wireframe{
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  max-width: 100%;
-  justify-content: center;
-  align-items: center;
-
-}
-
-#mvp_wireframe img{
-  display: flex;
-  max-width:100%;
-  align-items: center;
-  cursor: pointer;
-}
-
-/*Used for Intial User Flow AND Logo Sketch*/
-#logo_sketch{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-#logo_sketch a{ 
-  display: flex;
-  max-width: 100%;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-#logo_sketch a img{
-  display: flex;
-  max-width: 75%;
-  cursor: pointer;
-}
-
-
-#style_guide_pic{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-}
-
-#style_guide_pic a{
-  display: flex;
-  max-width: 100%;
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-}
-
-
-#style_guide_pic a img{
-  display: flex;
-  max-width: 75%;
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-}
-
-@media only screen and (max-width: 700px) {
-    #style_guide_pic{
-      cursor: pointer;
-    }
-    #style_guide_pic a img{
-      display: flex;
-      max-width: 100%;
-      justify-content: center;
-      align-content: center;
-    }
-
-}
-
-.row_improvements{
-  flex-direction: column;
-  margin-top: -25px;
-}
-.individual_improvements{
-  flex-direction: column;
-  margin: 25px;
-}
-.individual_improvements h4{
-  text-align: center;
-}
 
 
 
