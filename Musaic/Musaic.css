@@ -34,7 +34,7 @@ body {
 }
 #logo{
   display: flex;
-  margin-left: 3.5%;
+  margin-left: 5.5%;
   align-items: flex-start;
   margin-right: auto;
  cursor: pointer;
@@ -134,7 +134,7 @@ body {
   border-color: red;*/
   border-width: 2px;
   width: 90%;
-  margin:-75px 5% 0px 5%;
+  margin:-75px 0% 0px 7%;
   flex-direction: row;
   }
 
@@ -284,12 +284,14 @@ body {
 #content_pic img{
   display: flex;
   max-width: 100%;
+  margin-top:2.5%;
+  margin-bottom: 2.5%;
 }
 
 #content_pic img:hover {
-    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    -webkit-box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
+    -moz-box-shadow: 10px 37px 47px -42px rgba(55,55,55,1);
+    box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
     transition-duration: 0.25s;
 }
 
@@ -363,12 +365,14 @@ body {
   max-width:100%;
   align-items: center;
   cursor: pointer;
+  margin-top:2.5%;
+  margin-bottom: 2.5%;
 }
 
 #mvp_wireframe img:hover {
-    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    -webkit-box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
+    -moz-box-shadow: 10px 37px 47px -42px rgba(55,55,55,1);
+    box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
     transition-duration: 0.25s;
 }
 
@@ -392,13 +396,16 @@ body {
   display: flex;
   max-width: 75%;
   cursor: pointer;
+   margin-top:2.5%;
+  margin-bottom: 2.5%;
 }
 
 #logo_sketch img:hover {
-    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+     -webkit-box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
+    -moz-box-shadow: 10px 37px 47px -42px rgba(55,55,55,1);
+    box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
     transition-duration: 0.25s;
+
 }
 
 
@@ -426,13 +433,16 @@ body {
   align-items: center;
   justify-content: center;
   align-content: center;
+  margin-top:2.5%;
+  margin-bottom: 2.5%;
 }
 
 #big_pics img:hover {
-    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+     -webkit-box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
+    -moz-box-shadow: 10px 37px 47px -42px rgba(55,55,55,1);
+    box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
     transition-duration: 0.25s;
+
 }
 
 

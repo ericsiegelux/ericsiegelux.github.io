@@ -135,14 +135,16 @@ body {
   border-width: 2px;
   border-color: red;*/
   width:90%;
-  margin:-75px 5% 0px 5%;
+  margin:-25px 5% 50px 5%;
   flex-direction: row;
   align-items: center;
   }
 
+
 @media screen and (max-width: 1200px) {
   #top{
     flex-direction: column;
+    margin-top: -75px;
   }
 }
 
@@ -182,9 +184,19 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 18px;
-  width: 50%;
-  padding: 0% 5% 5% 5%;
-  margin-top: 0px;
+  width: 70%;
+  /*padding: 0% 5% 5% 5%;*/
+  margin-top: -100px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  #Statement{
+    flex:1;
+    font-size: 18px;
+    width: 90%;
+    margin-top: 0px;
+  }
 }
 
 
@@ -215,12 +227,7 @@ body {
   #small_screen_link{
     display: flex;
   }
-  #Statement{
-    flex:1;
-    font-size: 18px;
-    width: 100%;
-  }
-  }
+}
 
 
 

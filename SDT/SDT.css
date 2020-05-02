@@ -34,7 +34,7 @@ body {
 }
 #logo{
   display: flex;
-  margin-left: 3.5%;
+  margin-left: 5.5%;
   align-items: flex-start;
   margin-right: auto;
  cursor: pointer;
@@ -291,12 +291,14 @@ body {
 #content_pic img{
   display: flex;
   max-width: 100%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 #content_pic img:hover{
-    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+     -webkit-box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
+    -moz-box-shadow: 10px 37px 47px -42px rgba(55,55,55,1);
+    box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
     transition-duration: 0.25s;
 }
 
@@ -442,6 +444,8 @@ body {
   max-width:100%;
   align-items: center;
   cursor: pointer;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 /*Used for Intial User Flow AND Logo Sketch*/
@@ -464,6 +468,8 @@ body {
   display: flex;
   max-width: 75%;
   cursor: pointer;
+ margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 
@@ -491,6 +497,7 @@ body {
   align-items: center;
   justify-content: center;
   align-content: center;
+  margin-bottom: 5%;
 }
 
 @media only screen and (max-width: 700px) {
