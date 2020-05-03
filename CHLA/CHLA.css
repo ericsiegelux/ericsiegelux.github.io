@@ -32,12 +32,15 @@ body {
   margin-right: 3%;
   background-color: white;
 }
+
 #logo{
   display: flex;
-  margin-left: 5.5%;
-  align-items: flex-start;
-  margin-right: auto;
- cursor: pointer;
+    margin-left: 5.9%;
+    margin-top: 1%;
+    align-items: flex-start;
+    margin-right: auto;
+    cursor: pointer;
+    width: 7%;
  }
 
 .menu {
@@ -45,7 +48,7 @@ body {
   align-items: center;
   align-content: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1em;
 }
 .menu:first-child {
