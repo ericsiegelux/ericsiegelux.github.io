@@ -36,7 +36,7 @@ body {
 
 #logo{
   display: flex;
-    margin-left: 5.9%;
+    margin-left: 5.5%;
     margin-top: 1%;
     align-items: flex-start;
     margin-right: auto;
@@ -139,23 +139,25 @@ body {
   border-width: 2px;
   border-color: red;*/
   width:90%;
-  margin:-25px 5% 50px 5%;
+  margin:-40px 20% 0px 5%;
+  padding: 5px 25px;
   flex-direction: row;
-  align-items: center;
+/*  align-items: center;*/
   }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
   #top{
     flex-direction: column;
-    margin-top: -75px;
+    margin-top: 30px;
+    align-items: center;
   }
 }
 
 #Profile_Pic{
   display: flex;
-  align-items: center;
   flex-direction: column;
+  width: 40%;
  /* flex:1;
   width: 50%;*/
 }
@@ -163,7 +165,6 @@ body {
 #big_screen_link{
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 #small_screen_link{
@@ -172,7 +173,8 @@ body {
 
 #Profile_Pic #ppb{
 	display: flex;
-  max-width: 65%;
+  max-width: 100%;
+  margin-top: auto;
   /*display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -189,9 +191,9 @@ body {
   flex-direction: column;
   font-size: 18px;
   width: 70%;
-  /*padding: 0% 5% 5% 5%;*/
-  margin-top: -100px;
+  padding: 0% 5% 0% 5%;
 }
+
 
 
 @media screen and (max-width: 1200px) {
@@ -199,17 +201,25 @@ body {
     flex:1;
     font-size: 18px;
     width: 90%;
-    margin-top: 0px;
+    margin-top: 50px;
   }
 }
 
 
-@media screen and (max-width: 900px) {
+
+
+
+@media screen and (max-width: 600px) {
   #Profile_Pic{
   display: flex;
   flex-direction: row;
   /*width: 100%;*/
   justify-content: center;
+  }
+
+
+  #Profile_Pic #ppb{
+    max-width: 350px;
   }
 
   #Profile_Pic #pps{
@@ -233,7 +243,63 @@ body {
   }
 }
 
+#icons{
+  display:flex;
+  width:90%;
+  margin: 0px 10% 50px 2%;
+  flex-direction: row;
+  align-items: center;
+}
 
+.icon_col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+#me{
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
 
+.me_items{
+  display: flex;
+  position: relative;
+  font-size: 10px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.me_items img{
+  display: flex;
+  position: relative;
+  width: 50%;
+}
+
+.plus_sign{
+  display: flex;
+  position: relative;
+}
+
+.plus_sign img{
+  display: flex;
+  position: relative;
+  width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+  #icons{
+    flex-direction: column;
+    margin: 0px 10% 50px 2%;
+  }
+  #me{
+    width:90%;
+  }
+}
 
