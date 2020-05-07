@@ -299,10 +299,10 @@ body {
 }
 
 #content_pic img:hover{
-     -webkit-box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
+ /*    -webkit-box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
     -moz-box-shadow: 10px 37px 47px -42px rgba(55,55,55,1);
     box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
-    transition-duration: 0.25s;
+    transition-duration: 0.25s;*/
 }
 
 #content_pic p a:link{
@@ -339,7 +339,7 @@ body {
 }
 
 .content_statement p{
-	max-width: 100%;
+	max-width: 75%;
 	/*text-align: center;*/
 }
 
@@ -364,7 +364,7 @@ body {
 
 #vizandinstr{
     display: flex;
-    width: 100%;
+    width: 75%;
     justify-content: center;
     
 }
@@ -396,17 +396,16 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-    #content_pic{
+     #content_pic{
       display: flex;
       max-width: 100%;
-      cursor: pointer;
     }
 
     #content_pic img{
       display: flex;
       max-width: 100%;
+      margin-left: 5%;
       justify-content: center;
-      cursor: pointer;
     }
 
     .content_statement{
@@ -414,6 +413,14 @@ body {
       font-size: 18px;
       width: 100%;
   }
+  .content_statement p{
+      max-width: 100%;
+  }
+
+    #content_pic p a {
+      width: 90%;
+      margin-left: 10%;
+    }
   #vizandinstr{
         flex-direction:column;
         align-items: center;
@@ -423,12 +430,16 @@ body {
     }
   #instruction{
     margin-bottom: 0px;
+    width: 100%;
   }
   #instruction p{
   width: 100%;
 }
 
 }
+
+
+
 
 
 

@@ -165,7 +165,8 @@ body {
 
 #links a:link{
 	color:black;
-	text-decoration: underline;
+  text-decoration: none;
+	font-weight: bold;
 }
 
 #links a:visited{
