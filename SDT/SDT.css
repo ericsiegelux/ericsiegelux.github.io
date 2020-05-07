@@ -285,9 +285,11 @@ body {
 #content_pic{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /*align-items: center;
   justify-content: center;
-  cursor: pointer;
+  cursor: pointer;*/
+  width: 90%;
+  padding: 0px 5%;
   font-size: 12px;
 }
 
