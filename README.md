@@ -1,2 +1,2 @@
-# ericsiegelux.github.io
+# siegelux.com
 Eric Siegel's UX Portfolio
