@@ -138,12 +138,30 @@ body {
   /*border-style: solid;
   border-width: 2px;
   border-color: red;*/
-  width:90%;
+  width:60%;
   margin:-50px 20% 0px 5%;
   padding: 5px 25px;
-  font-size: 22px;
+  font-size: 30px;
   }
 
+#top p a:link{
+  color:#06c;
+  text-decoration: none;
+}
+
+#top p a:visited{
+  color:#06c;
+}
+
+#top p a:hover{
+  color:#808080;
+  text-decoration: none;
+}
+
+#top p a:active{
+  color:green;
+  text-decoration: none;
+}
 
 #work{
   display: flex;
