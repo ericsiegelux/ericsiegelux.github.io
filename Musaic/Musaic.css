@@ -292,6 +292,7 @@ body {
   margin-top:2.5%;
 }
 
+
 #content_pic p a:link{
   color:#06c;
   text-decoration: none;
@@ -393,12 +394,12 @@ body {
   margin-bottom: 2.5%;
 }
 
-#mvp_wireframe img:hover {
+/*#mvp_wireframe img:hover {
     -webkit-box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
     -moz-box-shadow: 10px 37px 47px -42px rgba(55,55,55,1);
     box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
     transition-duration: 0.25s;
-}
+}*/
 
 /*Used for Intial User Flow AND Logo Sketch*/
 #logo_sketch{
