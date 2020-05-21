@@ -415,6 +415,8 @@ body {
   cursor: pointer;*/
 }
 
+
+
 #logo_sketch a img{
   /*display: flex;
   max-width: 75%;
@@ -425,6 +427,15 @@ body {
   display: flex;
   max-width: 75%;
   margin-top:2.5%;
+}
+
+@media screen and (max-width: 900px) {
+  #logo_sketch a{ 
+    display: initial;
+  }
+  #logo_sketch a img{
+     max-width: 100%;
+  }
 }
 
 #logo_sketch img:hover {
@@ -474,11 +485,10 @@ body {
 
 
 @media only screen and (max-width: 700px) {
-    #big_pics{
-      cursor: pointer;
+    #big_pics a{
+      display: initial;
     }
     #big_pics a img{
-      display: flex;
       max-width: 100%;
       justify-content: center;
       align-content: center;
@@ -494,10 +504,13 @@ body {
   flex-direction: column;
   margin: 25px;
 }
-/*.individual_improvements h4{
-  text-align: center;
-}*/
 
+@media only screen and (max-width: 700px) {
+    .individual_improvements{
+        margin: 12px;
+      }
+
+}
 
 
 
