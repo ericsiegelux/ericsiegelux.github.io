@@ -289,6 +289,26 @@ body {
   margin-top:2.5%;
 }
 
+#concept_base_img{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 0px 5%;
+  font-size: 12px;
+}
+
+#concept_base_img img{
+  display: flex;
+  max-width: 75%;
+  margin-top:2.5%;
+}
+
+@media screen and (max-width: 700px) {
+  #concept_base_img img{
+  max-width: 100%;
+}
+}
+
 
 #content_pic p a:link{
   color:#06c;
@@ -308,13 +328,6 @@ body {
   color:green;
   text-decoration: none;
 }
-
-/*#content_pic img:hover {
-    -webkit-box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
-    -moz-box-shadow: 10px 37px 47px -42px rgba(55,55,55,1);
-    box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
-    transition-duration: 0.25s;
-}*/
 
 .content_statement{
   display: flex;
