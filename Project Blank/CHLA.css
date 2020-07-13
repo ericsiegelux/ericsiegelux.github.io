@@ -134,19 +134,9 @@ body {
   border-color: red;*/
   border-width: 2px;
   width: 90%;
-  margin: 0px 5% 0px 5%;
+  margin:0px 5% 0px 5%;
   flex-direction: row;
   }
-
-@media screen and (max-width: 900px) {
-  #logo{
-    width:55px;
-    margin-left: 7%;
-  }
-  #top{
-    width: 90%;
-  }
-}
 
 #Cover_Photo{
   display: flex;
@@ -184,23 +174,23 @@ body {
 }
 
 #Statement span{
-	display: block;
-	font-size:27px;
-	align-content: center;
+  display: block;
+  font-size:27px;
+  align-content: center;
   justify-content: center;
   /*text-align: center;*/
 }
 
 #Statement p{
-	display: block;
-	align-content: center;
+  display: block;
+  align-content: center;
   justify-content: center;
   /*text-align: center;*/
 }
 
 @media screen and (max-width: 900px) {
   #Statement{
-  	width: 100%;
+    width: 100%;
   }
 }
 
@@ -295,8 +285,8 @@ body {
   /*align-items: center;
   justify-content: center;
   cursor: pointer;*/
-  width: 90%;
-  padding: 0px 5%;
+  width: 100%;
+  /*padding: 0px 5%;*/
   font-size: 12px;
 }
 
@@ -324,7 +314,7 @@ body {
 }
 
 #content_pic p a:hover{
-  color:#00BEE4;
+  color:#808080;
   text-decoration: none;
 }
 
@@ -348,8 +338,8 @@ body {
 }
 
 .content_statement p{
-	max-width: 75%;
-	/*text-align: center;*/
+  max-width: 75%;
+  /*text-align: center;*/
 }
 
 .content_statement p a:link{

@@ -321,6 +321,58 @@ body {
    text-align: center;
 }
 
+
+#chla{
+  display: flex;
+  position: relative;
+  /*border-style: solid;
+  border-width: 2px;
+  border-color: blue;*/
+  height: 200px;
+  width:100%;
+  background-image: url("chla.png");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#gallery #chla:hover{
+    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
+    transition-duration: 0.25s;
+}
+
+#chla:hover{
+   background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+    transition:0.25s;
+}
+
+#chla h2{
+  display: none;
+}
+
+#chla:hover h2{
+  display: block;
+  color: white;
+   text-align: center;
+}
+
+#chla p{
+  display: none;
+}
+
+#chla:hover p{
+  display: block;
+  color: white;
+  align-content: center;
+  justify-content: center;
+   text-align: center;
+}
+
 .work_item{
   display: flex;
   border-style: solid;

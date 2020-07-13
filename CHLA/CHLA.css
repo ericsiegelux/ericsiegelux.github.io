@@ -137,15 +137,32 @@ body {
   margin:0px 5% 0px 5%;
   flex-direction: row;
   }
+  
+@media screen and (max-width: 900px) {
+  #logo{
+    width:55px;
+    margin-left: 7%;
+  }
+  #top{
+    width: 90%;
+  }
+}
 
 #Cover_Photo{
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Cover_Photo a{
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 #Cover_Photo img{
   display: flex;
-  max-width: 100%;
+  max-width: 60%;
   cursor: pointer;
 }
 
@@ -155,21 +172,11 @@ body {
   }
 }
 
-#Cover_Photo{
-  display: flex;
-  max-width: 100%;
-}
-
-#Cover_Photo img{
-  display: flex;
-  max-width: 100%;
-}
-
 #Statement{
   display: flex;
   flex-direction: column;
   font-size: 18px;
-  width: 50%;
+  width: 75%;
   padding: 5%;
 }
 
@@ -279,22 +286,22 @@ body {
   flex-direction: column;
 }
 
+.content iframe{
+  height: 800px;
+}
+
 #content_pic{
   display: flex;
   flex-direction: column;
-  /*align-items: center;
-  justify-content: center;
-  cursor: pointer;*/
-  width: 100%;
-  /*padding: 0px 5%;*/
+  width: 90%;
+  padding: 0px 5%;
   font-size: 12px;
 }
 
 #content_pic img{
   display: flex;
   max-width: 100%;
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
+  margin-top:2.5%;
 }
 
 #content_pic img:hover{
@@ -328,13 +335,6 @@ body {
   font-size: 18px;
   padding:0px 5%;
   flex-direction: column;
-}
-
-.content_statement ol{
- /* display: inline;
-  max-width: 100%;*/
-  flex-direction: row;
-  text-align: center;
 }
 
 .content_statement p{
@@ -394,8 +394,24 @@ body {
   width: 75%;
 }
 
+#wireframe{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 0px 5%;
+  font-size: 12px;
+
+}
+
+#wireframe img{
+  display: flex;
+  max-width: 140%;
+  margin-top:2.5%;
+  margin-left: -70px;
+}
+
 @media screen and (max-width: 900px) {
-     #content_pic{
+       #content_pic{
       display: flex;
       max-width: 100%;
     }
@@ -403,9 +419,9 @@ body {
     #content_pic img{
       display: flex;
       max-width: 100%;
-      margin-left: 5%;
       justify-content: center;
     }
+
 
     .content_statement{
       display: flex;
@@ -436,108 +452,3 @@ body {
 }
 
 }
-
-
-
-
-
-
-#mvp_wireframe{
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  max-width: 100%;
-  justify-content: center;
-  align-items: center;
-
-}
-
-#mvp_wireframe img{
-  display: flex;
-  max-width:100%;
-  align-items: center;
-  cursor: pointer;
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
-}
-
-/*Used for Intial User Flow AND Logo Sketch*/
-#logo_sketch{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-#logo_sketch a{ 
-  display: flex;
-  max-width: 100%;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-#logo_sketch a img{
-  display: flex;
-  max-width: 75%;
-  cursor: pointer;
- margin-top: 2.5%;
-  margin-bottom: 2.5%;
-}
-
-
-#style_guide_pic{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-}
-
-#style_guide_pic a{
-  display: flex;
-  max-width: 100%;
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-}
-
-
-#style_guide_pic a img{
-  display: flex;
-  max-width: 75%;
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  margin-bottom: 5%;
-}
-
-@media only screen and (max-width: 700px) {
-    #style_guide_pic{
-      cursor: pointer;
-    }
-    #style_guide_pic a img{
-      display: flex;
-      max-width: 100%;
-      justify-content: center;
-      align-content: center;
-    }
-
-}
-
-.row_improvements{
-  flex-direction: column;
-  margin-top: -25px;
-}
-.individual_improvements{
-  flex-direction: column;
-  margin: 25px;
-}
-.individual_improvements h4{
-  text-align: center;
-}
-
-
-
-

@@ -138,6 +138,16 @@ body {
   flex-direction: row;
   }
 
+@media screen and (max-width: 900px) {
+  #logo{
+    width:55px;
+    margin-left: 7%;
+  }
+  #top{
+    width: 90%;
+  }
+}
+
 #Musaic_Cover_Photo{
   display: flex;
   align-items: center;
@@ -377,9 +387,9 @@ body {
       font-size: 18px;
       width: 100%;
   }
-  .content_statement p{
-      max-width: 100%;
-  }
+    .content_statement p{
+        max-width: 100%;
+    }
 
 }
 

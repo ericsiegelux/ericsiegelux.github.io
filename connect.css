@@ -138,6 +138,16 @@ body {
   flex-direction: column;
   }
 
+  @media screen and (max-width: 900px) {
+  #logo{
+    width:55px;
+    margin-left: 7%;
+  }
+  #top{
+    width: 90%;
+  }
+}
+
 @media screen and (max-width: 900px) {
   #top{
     flex-direction: column;
