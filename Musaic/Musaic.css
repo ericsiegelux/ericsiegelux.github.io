@@ -4,6 +4,7 @@
 }
 body {
   font-weight: 400;
+  background-color: #fbfcfc;
 }
 
 #top_container{
@@ -15,7 +16,7 @@ body {
 
 .flexmenu {
   width: 100%;
-  background-color: #ffffff;
+  background-color: #fbfcfc;
   color: #000000;
   line-height: 1.8em;
   align-items: center;
@@ -29,7 +30,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   margin-right: 3%;
-  background-color: white;
+  /*background-color: white;*/
 }
 
 #logo{
