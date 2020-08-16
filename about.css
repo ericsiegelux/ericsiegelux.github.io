@@ -331,3 +331,8 @@ p a:active{
   }
 }
 
+h2, p{
+  margin-bottom: 0px;
+}
+
+
