@@ -506,5 +506,6 @@ body {
   #musaic, #chla, #sdt{
     margin: 0px 0px;
     width: 100%;
+    border: none;
   }
 }
