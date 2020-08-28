@@ -14,6 +14,12 @@
   window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
   heap.load("653142913");
 </script>
+<script type="text/javascript">
+  function scroll() {
+    var elmnt = document.getElementById("work");
+    elmnt.scrollIntoView({behavior: "smooth"});
+  }
+</script>
 </head>
 
 <body>
@@ -40,13 +46,24 @@
 
 </div>
 
+<div id="outer">
 <div id="top">
- <p>Hello! My name is  <a href="about.html">Eric Siegel</a> and I am a UX Designer and UX Researcher currently looking for full-time roles.
-  I am a recent <a href="http://www.ucla.edu/">UCLA</a> graduate with a bachelor of science degree in Cognitive Science and a minor in Statistics.</p>
+<div>
+ 	<p> <a href="about.html">Eric Siegel</a> </p> 
+    <p id="p_1"> UX Designer </span> 
+      <p id="p_2"> UX Researcher </p> 
+        <p id="p_3"> Frontend Dabbler </p>
+</div>
+</div>
+
+<div id="inner_remaining">
+  <img id="down_arrow" onclick="scroll()" src="down.png">
+</div>
 
 </div>
 
-<div id="work">
+
+<!-- <div id="work">
   <span>Work</span>
   <div id="gallery">
       <div id="musaic" style="cursor: pointer;" onclick="window.location='Musaic/Musaic.html';">
@@ -59,7 +76,19 @@
         <p><span style="font-size: 24px">Signal Detection Theory <br>for User Interfaces</span> <br>Visual Search Experiment</p>
       </div>
   </div>
-</div>
+</div> -->
+ <div id="gallery">
+  <span>UX Projects</span>
+      <div id="musaic" style="cursor: pointer;" onclick="window.location='Musaic/Musaic.html';">
+        <p><span style="font-size: 24px">Musaic</span> <br>Website</p>
+      </div>
+      <div id="chla" style="cursor: pointer;" onclick="window.location='CHLA/CHLA.html';">
+        <p><span style="font-size: 24px">CHLA App</span> <br>Mobile Application</p>
+      </div> 
+      <div id="sdt" style="cursor: pointer;" onclick="window.location='SDT/SDT.html';">
+        <p><span style="font-size: 24px">Signal Detection Theory <br>for User Interfaces</span> <br>Visual Search Experiment</p>
+      </div>
+  </div>
 
 </body>
 
