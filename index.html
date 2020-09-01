@@ -14,12 +14,6 @@
   window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
   heap.load("653142913");
 </script>
-<script type="text/javascript">
-  function scroll() {
-    var elmnt = document.getElementById("work");
-    elmnt.scrollIntoView({behavior: "smooth"});
-  }
-</script>
 </head>
 
 <body>
@@ -56,8 +50,8 @@
 </div>
 </div>
 
-<div id="inner_remaining">
-  <img id="down_arrow" onclick="scroll()" src="down.png">
+<div id="inner_remaining" >
+  <img id="down_arrow" src="down.png">
 </div>
 
 </div>
@@ -80,7 +74,7 @@
  <div id="gallery">
   <span>UX Projects</span>
       <div id="musaic" style="cursor: pointer;" onclick="window.location='Musaic/Musaic.html';">
-        <p><span style="font-size: 24px">Musaic</span> <br>Website</p>
+        <p><span style="font-size: 24px">Musaic</span> <br>Web App</p>
       </div>
       <div id="chla" style="cursor: pointer;" onclick="window.location='CHLA/CHLA.html';">
         <p><span style="font-size: 24px">CHLA App</span> <br>Mobile Application</p>
@@ -88,8 +82,18 @@
       <div id="sdt" style="cursor: pointer;" onclick="window.location='SDT/SDT.html';">
         <p><span style="font-size: 24px">Signal Detection Theory <br>for User Interfaces</span> <br>Visual Search Experiment</p>
       </div>
+      <div id="webmark"> <!-- style="cursor: pointer;" onclick="window.location='WebMark/WebMark.html';" -->
+        <p><span style="font-size: 24px">WebMark</span> <br> Web App</p>
+      </div>
   </div>
 
+<script type="text/javascript">
+  function scroll() {
+    elmnt = document.getElementById("gallery");
+    elmnt.scrollIntoView({behavior: "smooth"});
+  }
+  document.getElementById("inner_remaining").addEventListener("click", scroll);
+</script>
 </body>
 
 </html>
