@@ -154,6 +154,7 @@ body {
 }
 #top div p{
   position: relative;
+  width: 300px;
 }
 
 #top p a:link{

@@ -280,6 +280,11 @@ body {
   flex-direction: column;
 }
 
+.content img{
+  display: flex;
+  max-width: 50%;
+}
+
 #content_pic{
   display: flex;
   flex-direction: column;
@@ -361,6 +366,7 @@ body {
   color:green;
   text-decoration: none;
 }
+
 
 #vizandinstr{
     display: flex;
