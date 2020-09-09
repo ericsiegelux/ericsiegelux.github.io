@@ -373,9 +373,51 @@ body {
 }
 
 .styleguide img{
-  max-width: 100%;
+  max-width: 75%;
+}
+
+.multi_pic{
+  flex-direction: row;
 }
 
 
+.multi_pic img{
+  max-width: 100%;
+}
 
+mark{
+  background-color: #FF8E2D;
+}
+
+#twoframes{
+  display: flex;
+  flex-direction: row;
+}
+
+#twoframes iframe{
+  width:600px;
+  height: 400px
+}
+
+@media screen and (max-width: 700px) {
+  #twoframes{
+    flex-direction: column;
+  }
+
+  #twoframes iframe{
+  width:400px;
+  height: 300px
+}
+
+@media screen and (max-width: 500px) {
+  #twoframes iframe{
+  width:300px;
+  height: 300px;
+}
+
+}
+
+#xframe{
+  max-width: 100%;
+}
 

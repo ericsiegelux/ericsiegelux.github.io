@@ -137,14 +137,14 @@
 <div class="content">
 	<h2>Initial Ideas and Designs</h2>
   <div class = "content_statement">
-    <p> In order to recruit my fellow UI/UX Designer, Jason Kuang, and my backend developer, Akaash Venkat, I created three informational pieces/visuals to explain my initial ideas and designs.</p>
+    <p> In order to recruit my fellow UI/UX Designer, Jason Kuang, and my backend developer, Akaash Venkat, I created three informational pieces/visuals to explain my initial ideas and designs. I had pitched the idea under the name: WebMark.</p>
   </div>
 	<div class = "content_statement">
     <h3>Design Manifesto</h3>
     <p>I wanted to outline what WebMark's intention is and how user's can use it: </p>
-    <span style="font-style: italic; margin-left: 20px;">WebMark is an online platform that acts as an interactive journal for your online activity. <br><br>
-      WebMark bridges the gap between bookmarking and visuzaling interestingitems you come across online, whether it’s YouTube videos, songs on Spotify, or articles on Medium. <br><br> 
-      All that you do is add a link manually on your WebMark profile or use our Google Chrome Extension and Webmark creates an interactive entry for that link. If it’s a video, you can play it right on WebMark. <br><br> 
+    <span style="font-style: italic; margin-left: 20px;">WebMark is an <mark>online platform</mark> that acts as an interactive <mark>journal</mark> for your <mark>online activity</mark>. <br><br>
+      WebMark bridges the gap between bookmarking and visuzaling interesting items you come across online, whether it’s YouTube videos, songs on Spotify, or articles on Medium. <br><br> 
+      All you have to do is <mark>add a link</mark> manually on your WebMark profile page or use our Google Chrome Extension to create an <mark>interactive</mark> entry for that link. If it’s a video, you can play it right on WebMark. <br><br> 
     </span>
   </div>
 
@@ -166,6 +166,57 @@
     <img src="styleguide.png">
   </div>
 </div>
+
+<div class="content">
+  <h2>High Fidelity Wireframe</h2>
+  <div class = "content_statement multi_pic">
+    <div>
+      <img src="hifihome.png">
+    </div>
+
+    <div>
+      <img src="hifi.png">
+    </div>
+  </div>
+</div>
+
+
+<div class="content">
+  <h2>Building the MVP</h2>
+
+  <div class = "content_statement">
+    <h3>Adjustments from the initial design</h3>
+    <p>The main issue that Akaash and I ran into was the interactive side of WebMark. Initially, I planned to implement interactivity in the form of iframes, which are HTML tags where you can add a source URL and the user can scroll the site from that div. <br><br>
+      Below is an example of an iframe for my portfolio and a youtube video: <br> (Go Ahead! Scroll through the sites/play the video)
+    </p>
+    <div id="twoframes">
+      <iframe src="https://siegelux.com/" ></iframe> <iframe src="https://www.youtube.com/embed/oJPKoF-xccY"></iframe>
+    </div>
+  </div>
+
+  <div class = "content_statement">
+    <p>Now, certain websites have a setting (called an x-frame-options setting) to prevent their sites from being put in an iframe. This is limit instances of session hijacking or basically someone hacking your account. <br><br>
+
+      Notice what happens when I put a google search in an iframe:
+    </p>
+
+    <p>URL: https://www.google.com/ </p>
+    <iframe src="https://www.google.com/" height="200px"></iframe>
+    <p>
+      On the backend, I get this error: <br><br>
+    </p>
+    <img id="xframe" src="xframe.png">
+  </div>
+
+  <div class = "content_statement">
+    <p>Insert Slight Panic <span style="font-size: 40px;">&#129397;</span>
+    </p>
+    <p>After some quick reconnaissance research, I thought we could replace some of the iframes for websites with screenshots of the sites and making the WebMarks clickable so users could visit the sites stored with a single click. The implementation for the web screnshots came by using <a href="https://www.selenium.dev/">Selenium</a> to take screenshots of websites that weren't videos or social media posts, which are allowed to be put in iframes.</p>
+    <p>
+      Crisis quickly averted <span style="font-size: 40px;">&#128524;</span></p>
+  </div>
+</div>
+
 
 
 
