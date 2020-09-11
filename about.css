@@ -242,15 +242,15 @@ p a:active{
 
 @media screen and (max-width: 600px) {
   #Profile_Pic{
-  display: flex;
-  flex-direction: row;
-  max-width: 100%;
-  justify-content: center;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
   }
-
 
   #Profile_Pic #ppb{
     max-width: 350px;
+    height: 300px;
   }
 
   #Profile_Pic #pps{
@@ -324,6 +324,14 @@ p a:active{
   width: 40%;
 }
 
+@media screen and (max-width: 400px) {
+
+  #Profile_Pic #ppb{
+    max-width: 200px;
+    height: 200px;
+  }
+
+}
 @media screen and (max-width: 1000px) {
   #icons{
     flex-direction: column;
