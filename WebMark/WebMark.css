@@ -1,7 +1,10 @@
+@import url(//fonts.googleapis.com/css?family=Lato);
+
 * {
   box-sizing: border-box;
-  font-family: "Muli";
+  font-family: "Lato";
 }
+
 body {
   font-weight: 400;
    background-color: #fbfcfc;
@@ -341,6 +344,10 @@ body {
   /*text-align: center;*/
 }
 
+.content_statement span{
+  max-width: 75%;
+}
+
 .content_statement p a:link{
   color:#06c;
   text-decoration: none;
@@ -361,9 +368,9 @@ body {
 }
 
 
-.styleguide{
+/*.styleguide{
   max-width: 100%;
-}
+}*/
 
 .styleguide img{
   max-width: 75%;
@@ -445,14 +452,18 @@ mark{
 
   #twoframes iframe{
   width:400px;
-  height: 300px
+  height: 300px;
 }
 
 @media screen and (max-width: 500px) {
+  .TableauPalceHolder{
+    width:250px;
+  }
+
   #twoframes iframe{
-  width:300px;
-  height: 300px;
-}
+    width:250px;
+  }
+
 
 }
 

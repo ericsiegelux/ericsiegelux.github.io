@@ -1,7 +1,10 @@
+@import url(//fonts.googleapis.com/css?family=Lato);
+
 * {
   box-sizing: border-box;
-  font-family: "Muli";
+  font-family: "Lato";
 }
+
 body {
   font-weight: 400;
   background-color: #fbfcfc;
