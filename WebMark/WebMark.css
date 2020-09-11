@@ -336,13 +336,6 @@ body {
   flex-direction: column;
 }
 
-.content_statement ol{
- /* display: inline;
-  max-width: 100%;*/
-  flex-direction: row;
-  text-align: center;
-}
-
 .content_statement p{
   max-width: 75%;
   /*text-align: center;*/
@@ -374,6 +367,52 @@ body {
 
 .styleguide img{
   max-width: 75%;
+}
+
+#lofi_pics{
+  display: flex;
+  flex-direction: row;
+  max-width: 30%;
+}
+
+#lofi_pics img{
+  max-width: 100%;
+  border: 1px solid #FF8E2D;
+  margin-right: 20px;
+}
+
+.right_arrow{
+  display: flex;
+  align-self: center;
+  margin-right:20px;
+}
+
+.down_arrow{
+  display: none;
+}
+@media screen and (max-width: 700px) {
+  #lofi_pics{
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  #lofi_pics img{
+    max-width: 100%;
+    border: 1px solid #FF8E2D;
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+
+  .right_arrow{
+    display: none;
+  }
+
+  .down_arrow{
+    display: flex;
+    align-self: center;
+    margin-top:20px;
+  }
+
 }
 
 .multi_pic{

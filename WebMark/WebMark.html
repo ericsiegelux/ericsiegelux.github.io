@@ -7,7 +7,7 @@
 <meta property="og:image" content="../logoii.png" />
 <meta property="og:url" content="http://siegelux.com" />
 <link rel="shortcut icon" href="../tab_icon.png" type="image/png">
-<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet"  type="text/css">
 <title>Eric Siegel's UX Portfolio</title>
 <link rel="stylesheet" href="WebMark.css">
 <script src="../navbar.js"></script>
@@ -56,13 +56,13 @@
     <div class="column_section">
         <span style="text-decoration: underline;">Duration</span>
       <div class="work_item">
-      June 2020 - Septemeber 2020
+      June 2020 - October 2020
       </div>
     </div>
     <div class="column_section">
         <span style="text-decoration: underline;">Role</span>
       <div class="work_item">
-        UX Designer, UI Designer
+        UX Designer, UI Designer, Front End Developer
       </div>
     </div>
    <div class="column_section">
@@ -91,7 +91,7 @@
 <div class="content">
   <h2>Introduction</h2>
   <div class = "content_statement">
-    <p> At the beginning of quarantine for the COVID-19 pandemic, I knew I wanted to create a web application with all the spare time I had. My focus was on allowing users to easily document their experience during this unprecedneted time. <br><br>
+    <p> At the beginning of quarantine for the COVID-19 pandemic, I knew I wanted to create a web application with all the spare time I had. My focus was on allowing users to easily document their experience during this unprecedented time. <br><br>
       I noticed a couple of weeks into quarantine, I was spending a great deal of time on my desktop. Since I didn't have a lot of lived experiences to journal, I wondered: <br><br>
       <span style="font-style: italic;font-size: 22px">Could curating your web activity be the next form of journaling?</span>
      </p>
@@ -115,7 +115,7 @@
 
   <div class = "content_statement">
   	<h3>Visited Sites Data</h3>
-  	<p>In addition to getting user's habit data, I wanted my design decisions to be informed by what websites people were using most frequently due to Jakob's Law. <br><br>
+  	<p>In addition to getting users' habit data, I wanted my design decisions to be informed by what websites people were using most frequently due to Jakob's Law. <br><br>
 
   	<span style="font-style: italic;font-size: 22px">Jakob's law states: Users spend most of their time on other sites. This means that users prefer your site to work the same way as all the other sites they already know.</span> <br><br>
 
@@ -143,7 +143,7 @@
     <h3>Design Manifesto</h3>
     <p>I wanted to outline what WebMark's intention is and how user's can use it: </p>
     <span style="font-style: italic; margin-left: 20px;">WebMark is an <mark>online platform</mark> that acts as an interactive <mark>journal</mark> for your <mark>online activity</mark>. <br><br>
-      WebMark bridges the gap between bookmarking and visuzaling interesting items you come across online, whether it’s YouTube videos, songs on Spotify, or articles on Medium. <br><br> 
+      WebMark bridges the gap between bookmarking and visualizing interesting items you come across online, whether it’s YouTube videos, songs on Spotify, or articles on Medium. <br><br> 
       All you have to do is <mark>add a link</mark> manually on your WebMark profile page or use our Google Chrome Extension to create an <mark>interactive</mark> entry for that link. If it’s a video, you can play it right on WebMark. <br><br> 
     </span>
   </div>
@@ -154,8 +154,27 @@
       </div>
 
      <div class = "content_statement">
-        <h3>Lo-Fi Wireframe of WebMarks Page</h3>
+        <h3>Lo-Fi Wireframe</h3>
+        <p>There are three major points where I had to design lo-fi wireframes:<br>
+          <ol>
+            <li>The Homepage</li>
+             <li>The Walkthrough page</li>
+              <li>The WebMark page</li>
+          </ol> <br>
+
+          The Homepage was inspired by the Gmail and Facebook sign in pages: spliting the screen in vertical halves, with a quick intro on the left and sign up div on the right. <br><br>
+
+          The most unique design for WebMark is the WebMark page. Discussing with my other UI/UX Designer Jason, we wanted the WebMark page to have an asymetrical layout in order to distinguish.
+        </p>
+        <div id="lofi_pics">
+          <img src="lofihome.png">
+          <p class="right_arrow"> &#8594;</p>
+          <p class="down_arrow"> &#8595;</p>
+          <img src="lofiwalk.png">
+          <p class="right_arrow"> &#8594;</p>
+          <p class="down_arrow"> &#8595;</p>
           <img src="lofi.png">
+        </div>
       </div>
 	</div>
 
@@ -185,7 +204,7 @@
   <h2>Building the MVP</h2>
 
   <div class = "content_statement">
-    <h3>Adjustments from the initial design</h3>
+    <h3>iframe Adjustment from initial design</h3>
     <p>The main issue that Akaash and I ran into was the interactive side of WebMark. Initially, I planned to implement interactivity in the form of iframes, which are HTML tags where you can add a source URL and the user can scroll the site from that div. <br><br>
       Below is an example of an iframe for my portfolio and a youtube video: <br> (Go Ahead! Scroll through the sites/play the video)
     </p>
@@ -215,11 +234,18 @@
     <p>
       Crisis quickly averted <span style="font-size: 40px;">&#128524;</span></p>
   </div>
+
+   <div class = "content_statement">
+    <h3> THE MVP!</h3>
+    <p> After the iframe adjustment and a couple of months working, WebMark's MVP was ready to roll out. This is the site where we would begin our user interviews on what they like about the site and what could be improved:</p>
+
+    <div onclick="mvp()"></div>
+    <script type="text/javascript">
+    	// function mvp(){
+    	// 	window.open(INSERT URL HERE, '_blank');
+    	// }
+    </script>
 </div>
-
-
-
-
 
 
 </div>
