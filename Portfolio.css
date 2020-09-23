@@ -238,7 +238,11 @@ button:hover{
 
 @media screen and (max-width: 900px) {
   button, button:hover{
-    margin-top: -10px;
+    margin: -10px auto auto auto;
+  }
+
+  .left button{
+    margin: -10px 0px 0px 0px;
   }
 }
 
@@ -326,11 +330,12 @@ button:hover{
   	display: flex;
     flex-direction: column;
 	  margin: 50px 30px;
+    max-width: 100%;
   }
 
   .left p{ 
 	 margin-bottom: 30px;
-	align-items: center;
+   align-items: center;
   }
 
 
@@ -354,17 +359,14 @@ button:hover{
   }
   .proj_info p{ 
     font-size: 20px;
-    width:275px;
   }
 
   .left p span{ 
   font-size: 24px;
-  margin: auto;
   }
 
   .left p{ 
   margin: 20px;
-  align-items: center;
   }
 }
 
@@ -394,14 +396,14 @@ button:hover{
   /*border-style: solid;
   border-width: 2px;
   border-color: blue;*/
-  height: 200px;
+  height: 300px;
   width:50%;
   border: 2px solid #0066CC;
   margin: 50px 0px;
-  background-image: url("bluenote.png");
- /* background-position: center; */
+  background-image: url("musaic2.png");
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: 50% 0%;
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -409,13 +411,6 @@ button:hover{
   -moz-box-shadow: 10px 37px 47px -10px rgba(0,0,0,0.33);
   box-shadow: 10px 37px 47px -10px rgba(0,0,0,0.33);
   transition-duration:0.25s;
-}
-
-@media screen and (max-width: 900px) {
-  #musaic{
-    background-size: 80%;
-    background-repeat: repeat;
-  }
 }
 
 
@@ -459,13 +454,14 @@ button:hover{
   /*border-style: solid;
   border-width: 2px;
   border-color: blue;*/
-  height: 200px;
+  height: 300px;
   width:50%;
   margin: 50px 0px;
   border: 2px solid #0066CC;
-  background-image: url("chla.png");
-  background-size: 30%;
-  background-repeat: repeat;
+  background-image: url("chla2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -522,14 +518,14 @@ button:hover{
   /*border-style: solid;
   border-width: 2px;
   border-color: blue;*/
-  height: 200px;
+  height: 300px;
   width:50%;
   border: 2px solid #0066CC;
   margin: 50px 0px;
   background-image: url("sdt.png");
-  background-position: center; 
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
   align-content: center;
   justify-content: center;
   align-items: center;
