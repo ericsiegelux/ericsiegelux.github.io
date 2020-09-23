@@ -212,6 +212,36 @@ body {
   }
 }
 
+button{
+  margin-top: 20px;
+  padding: 10px;
+  width: 150px;
+  border: 1px solid #0166CC;
+  color: #0166CC;
+  background-color: white;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+button:hover{
+  margin-top: 20px;
+  padding: 10px;
+  width: 150px;
+  border: 1px solid #0166CC;
+  color: white;
+  background-color: #0166CC;
+  border-radius: 2px;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration:0.1s;
+}
+
+@media screen and (max-width: 900px) {
+  button, button:hover{
+    margin-top: -10px;
+  }
+}
+
 
 #work{
   display: flex;
@@ -284,21 +314,22 @@ body {
 
 @media screen and (max-width: 900px) {
   .proj_info{
-  	margin: 30px auto;
+  	margin: 50px 30px;
     max-width: 100%;
   }
 
   .proj_info p{ 
-	 margin: 30px;
+	 margin-bottom: 30px;
   }
 
   .left{
   	display: flex;
-	 margin: 30px auto;
+    flex-direction: column;
+	  margin: 50px 30px;
   }
 
   .left p{ 
-	margin: 30px;
+	 margin-bottom: 30px;
 	align-items: center;
   }
 
