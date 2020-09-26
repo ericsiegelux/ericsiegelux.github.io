@@ -283,7 +283,7 @@ body {
  /* align-items: center;*/
 }
 
-.content h2{
+.content h1{
   display: flex;
   padding:  0px 5%;
   flex-direction: column;
@@ -294,7 +294,7 @@ body {
   flex-direction: column;
   width: 90%;
   padding: 0px 5%;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 #content_pic img{
