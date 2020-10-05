@@ -28,6 +28,9 @@ body {
   flex-flow: row;
   margin-bottom: 50px;
 }
+
+
+
 .flex {
   position: relative;
   display: flex;
@@ -90,7 +93,7 @@ body {
 .mobile-menu {
   display: flex;
   position: absolute;
-  right: 50px;
+  right: 25px;
   top: 5px;
   width: 12px;
   margin-left: auto;
