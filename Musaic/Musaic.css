@@ -7,7 +7,12 @@
 
 body {
   font-weight: 400;
-  background-color: #fbfcfc;
+  background-color: #F9FCFF;
+  /*background-color: #fbfcfc;*/
+}
+
+a{
+  cursor: auto;
 }
 
 #top_container{
@@ -19,7 +24,8 @@ body {
 
 .flexmenu {
   width: 100%;
-  background-color: #fbfcfc;
+  background-color: #F9FCFF;
+  /*background-color: #fbfcfc;*/
   color: #000000;
   line-height: 1.8em;
   align-items: center;
@@ -160,7 +166,6 @@ body {
 #Musaic_Cover_Photo img{
   display: flex;
   max-width: 100%;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 900px) {
@@ -413,17 +418,10 @@ body {
   display: flex;
   max-width:100%;
   align-items: center;
-  cursor: pointer;
   margin-top:2.5%;
   margin-bottom: 2.5%;
 }
 
-/*#mvp_wireframe img:hover {
-    -webkit-box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
-    -moz-box-shadow: 10px 37px 47px -42px rgba(55,55,55,1);
-    box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
-    transition-duration: 0.25s;
-}*/
 
 /*Used for Intial User Flow AND Logo Sketch*/
 #logo_sketch{
@@ -502,13 +500,6 @@ body {
   margin-top:2.5%;
 }
 
-#big_pics img:hover {
-    /* -webkit-box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
-    -moz-box-shadow: 10px 37px 47px -42px rgba(55,55,55,1);
-    box-shadow: 10px 37px 47px -42px  rgba(55,55,55,1);
-    transition-duration: 0.25s;*/
-
-}
 
 
 @media only screen and (max-width: 700px) {

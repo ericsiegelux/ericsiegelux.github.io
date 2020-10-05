@@ -7,7 +7,8 @@
 
 body {
   font-weight: 400;
-  background-color: #fbfcfc;
+  background-color: #F9FCFF;
+  /*background-color: #fbfcfc;*/
 }
 
 #top_container{
@@ -19,7 +20,8 @@ body {
 
 .flexmenu {
   width: 100%;
-  background-color: #fbfcfc;
+  background-color: #F9FCFF;
+  /*background-color: #fbfcfc;*/
   color: #000000;
   line-height: 1.8em;
   align-items: center;
@@ -138,7 +140,7 @@ body {
   border-color: red;*/
   border-width: 2px;
   width: 90%;
-  margin: 0px 5% 0px 5%;
+  margin: 0px 0% 0px 10%;
   flex-direction: row;
   }
 
@@ -149,6 +151,7 @@ body {
   }
   #top{
     width: 90%;
+    margin:0px 5% 0px 5%;
   }
 }
 

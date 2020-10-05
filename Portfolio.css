@@ -7,7 +7,8 @@
 
 body {
   font-weight: 400;
-  background-color: #fbfcfc;
+  background-color: #F9FCFF;
+  /*#fbfcfc;*/
 }
 
 #top_container{
@@ -19,7 +20,8 @@ body {
 
 .flexmenu {
   width: 100%;
-  background-color:#fbfcfc;
+  background-color: #F9FCFF;
+  /*background-color:#fbfcfc;*/
   color: #000000;
   line-height: 1.8em;
   align-items: center;
@@ -398,7 +400,7 @@ button:hover{
   border-color: blue;*/
   height: 300px;
   width:50%;
-  border: 2px solid #0066CC;
+  /*border: 2px solid #0066CC;*/
   margin: 50px 0px;
   background-image: url("musaic2.png");
   background-size: 100%;
@@ -457,7 +459,7 @@ button:hover{
   height: 300px;
   width:50%;
   margin: 50px 0px;
-  border: 2px solid #0066CC;
+  /*/*border: 2px solid #0066CC;*/ 
   background-image: url("chla2.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -508,7 +510,7 @@ button:hover{
 
 @media screen and (max-width: 900px) {
   #chla{
-   
+     background-position: center;
   }
 }
 
@@ -520,7 +522,7 @@ button:hover{
   border-color: blue;*/
   height: 300px;
   width:50%;
-  border: 2px solid #0066CC;
+  /*border: 2px solid #0066CC;*/
   margin: 50px 0px;
   background-image: url("sdt.png");
   background-size: 100%;
@@ -578,7 +580,7 @@ button:hover{
   border-color: blue;*/
   height: 200px;
   width:50%;
-  border: 2px solid #0066CC;
+  /*border: 2px solid #0066CC;*/
   margin: 50px 0px;
   background-image: url("webmark.png");
   background-position: center; 
