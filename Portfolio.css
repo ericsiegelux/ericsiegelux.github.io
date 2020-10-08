@@ -416,20 +416,12 @@ button:hover{
   background-position: 50% 0%;
   align-content: center;
   justify-content: center;
-  align-items: center;
-  -webkit-box-shadow: 10px 37px 47px -10px rgba(0,0,0,0.33);
-  -moz-box-shadow: 10px 37px 47px -10px rgba(0,0,0,0.33);
-  box-shadow: 10px 37px 47px -10px rgba(0,0,0,0.33);
+  align-items: center
   transition-duration:0.25s;
 }
 
 
-#gallery #musaic:hover{
-    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    transition-duration: 0.25s;
-}
+#g
 
 /*#musaic:hover{
    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
@@ -476,18 +468,10 @@ button:hover{
   justify-content: center;
   align-items: center;
   align-self: flex-end;
-   -webkit-box-shadow: 10px 37px 47px -10px rgba(0,0,0,0.33);
-  -moz-box-shadow: 10px 37px 47px -10px rgba(0,0,0,0.33);
-  box-shadow: 10px 37px 47px -10px rgba(0,0,0,0.33);
   transition-duration:0.25s;
 }
 
-#gallery #chla:hover{
-    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    transition-duration: 0.25s;
-}
+
 
 /*#chla:hover{
    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
@@ -539,18 +523,9 @@ button:hover{
   align-content: center;
   justify-content: center;
   align-items: center;
-   -webkit-box-shadow: 10px 37px 47px -10px rgba(0,0,0,0.33);
-  -moz-box-shadow: 10px 37px 47px -10px rgba(0,0,0,0.33);
-  box-shadow: 10px 37px 47px -10px rgba(0,0,0,0.33);
   transition-duration:0.25s;
 }
 
-#gallery #sdt:hover{
-    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    transition-duration: 0.25s;
-}
 
 /*#sdt:hover{
   background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
@@ -598,18 +573,10 @@ button:hover{
   justify-content: center;
   align-items: center;
   align-self: flex-end;
-   -webkit-box-shadow: 10px 37px 47px -10px rgba(0,0,0,0.33);
-  -moz-box-shadow: 10px 37px 47px -10px rgba(0,0,0,0.33);
-  box-shadow: 10px 37px 47px -10px rgba(0,0,0,0.33);
   transition-duration:0.25s;
 }
 
-#gallery #webmark:hover{
-    -webkit-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    -moz-box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    box-shadow: 10px 37px 47px -10px rgba(55,55,55,1);
-    transition-duration: 0.25s;
-}
+#ga
 
 /*#webmark:hover{
    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
