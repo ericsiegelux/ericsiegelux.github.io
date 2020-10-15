@@ -317,7 +317,7 @@ body {
   max-width: 100%;
 }
 
-#content_pic p a:link {
+#content_pic p {
   color: #06c;
   text-decoration: none;
 }
@@ -343,12 +343,7 @@ body {
   flex-direction: column;
 }
 
-.content_statement ol {
-  /* display: inline;
-  max-width: 100%;*/
-  flex-direction: row;
-  text-align: center;
-}
+
 
 .content_statement p {
   max-width: 75%;
@@ -356,26 +351,47 @@ body {
 }
 
 .content_statement p a:link {
-  color: #06c;
+  font-weight: bold;
+  color: black;
   text-decoration: none;
 }
 
 .content_statement p a:visited {
-  color: #06c;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
 }
 
 .content_statement p a:hover {
-  color: #00BEE4;
+  font-weight: bold;
+  color: #808080;
   text-decoration: none;
 }
 
 .content_statement p a:active {
-  color: green;
   text-decoration: none;
+}
+
+.content_statement ol {
+  font-size: 18px;
+}
+
+.content_statement ol li{
+  margin: 10px 0px;
+  padding-left:10px;
 }
 
 #instruction p {
   width: 75%;
+}
+
+@media screen and (min-width: 1000px) {
+  .content h1 {
+    max-width: 50%;
+  }
+  .content_statement p {
+      max-width: 50%;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -401,3 +417,4 @@ body {
     width: 90%;
     margin-left: 10%;
   }
+}

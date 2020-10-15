@@ -360,22 +360,34 @@ a {
 }
 
 .content_statement p a:link {
-  color: #06c;
+  font-weight: bold;
+  color: black;
   text-decoration: none;
 }
 
 .content_statement p a:visited {
-  color: #06c;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
 }
 
 .content_statement p a:hover {
-  color: #00BEE4;
+  font-weight: bold;
+  color: #808080;
   text-decoration: none;
 }
 
 .content_statement p a:active {
-  color: green;
   text-decoration: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .content h1 {
+    max-width: 50%;
+  }
+  .content_statement p {
+      max-width: 50%;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -386,6 +398,7 @@ a {
   #content_pic img {
     display: flex;
     max-width: 100%;
+    margin-left: 5%;
     justify-content: center;
   }
   .content_statement {
