@@ -300,7 +300,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 90%;
-  padding: 0px 5%;
   font-size: 12px;
 }
 
@@ -414,7 +413,7 @@ body {
     max-width: 50%;
   }
   .content_statement p {
-      max-width: 50%;
+      max-width: 60%;
     }
 }
 
