@@ -16,6 +16,9 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin-bottom: 10px;
+  top:0;
+  position: sticky;
+  z-index: 1;
 }
 
 .flexmenu {
@@ -346,9 +349,6 @@ body {
   /*text-align: center;*/
 }
 
-.content_statement span {
-  max-width: 75%;
-}
 
 .content_statement a:link {
   font-weight: bold;
@@ -380,6 +380,9 @@ body {
   .content_statement p {
       max-width: 60%;
     }
+  .content_statement span {
+      max-width: 60%;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -401,6 +404,11 @@ body {
   .content_statement p {
     max-width: 100%;
   }
+
+  .content_statement span {
+    max-width: 75%;
+  }
+
   #content_pic p a {
     width: 90%;
     margin-left: 10%;
@@ -462,8 +470,9 @@ body {
   max-width: 100%;
 }
 
-mark {
-  background-color: #FF8E2D;
+font {
+  font-weight:bold;
+  color: #FF8E2D;
 }
 
 #twoframes {

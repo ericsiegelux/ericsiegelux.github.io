@@ -15,6 +15,9 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin-bottom: 10px;
+  top:0;
+  position: sticky;
+  z-index: 1;
 }
 
 .flexmenu {
@@ -536,20 +539,20 @@ button:hover {
   text-align: center;
 }
 
-#webmark {
+#logos {
   display: flex;
   position: relative;
   /*border-style: solid;
   border-width: 2px;
   border-color: blue;*/
-  height: 200px;
+  height: 300px;
   width: 50%;
   /*border: 2px solid #0066CC;*/
   margin: 50px 0px;
-  background-image: url("webmark.png");
+  background-image: url("logos_cover.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -558,26 +561,26 @@ button:hover {
 }
 
 #ga
-/*#webmark:hover{
+/*#logos:hover{
    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
     transition:0.25s;
 }*/
 
-#webmarl h2 {
+#logos h2 {
   display: none;
 }
 
-#webmark:hover h2 {
+#logos:hover h2 {
   display: block;
   color: white;
   text-align: center;
 }
 
-#webmark p {
+#logos p {
   display: none;
 }
 
-#webmark:hover p {
+#logos:hover p {
   display: block;
   color: white;
   align-content: center;
@@ -598,7 +601,7 @@ button:hover {
   #musaic,
   #chla,
   #sdt,
-  #webmark {
+  #logos {
     margin: 0px 0px;
     width: 100%;
     border: none;
@@ -608,7 +611,7 @@ button:hover {
     #musaic,
     #chla,
     #sdt,
-    #webmark {
+    #logos {
       margin: 0px 0px;
       width: 100%;
     }
