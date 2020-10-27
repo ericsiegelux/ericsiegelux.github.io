@@ -1,4 +1,5 @@
-  @import url(//fonts.googleapis.com/css?family=Lato);
+@import url(//fonts.googleapis.com/css?family=Lato);
+
 * {
   box-sizing: border-box;
   font-family: "Lato";
@@ -47,7 +48,7 @@ body {
   align-items: flex-start;
   margin-right: auto;
   cursor: pointer;
-  width: 75px;
+  width: 55px;
 }
 
 .menu {
@@ -147,18 +148,17 @@ body {
   border-color: red;*/
   border-width: 2px;
   width: 90%;
-  margin: 0px 0% 0px 10%;
+  margin: 0px 12% 0px 12%;
   flex-direction: row;
 }
 
 @media screen and (max-width: 900px) {
   #logo {
-    width: 55px;
+    width: 45px;
     margin-left: 3%;
   }
   #top {
     width: 90%;
-    margin: 0px 5% 0px 5%;
   }
 }
 
@@ -196,6 +196,8 @@ body {
   font-size: 27px;
   align-content: center;
   justify-content: center;
+  align-items: center;
+  margin: auto;
   /*text-align: center;*/
 }
 

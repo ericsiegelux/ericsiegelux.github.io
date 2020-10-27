@@ -1,4 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Lato);
+
 * {
   box-sizing: border-box;
   font-family: "Lato";
@@ -8,10 +9,6 @@ body {
   font-weight: 400;
   background-color: #F9FCFF;
   /*background-color: #fbfcfc;*/
-}
-
-a {
-  cursor: auto;
 }
 
 #top_container {
@@ -51,7 +48,7 @@ a {
   align-items: flex-start;
   margin-right: auto;
   cursor: pointer;
-  width: 75px;
+  width: 55px;
 }
 
 .menu {
@@ -151,13 +148,13 @@ a {
   border-color: red;*/
   border-width: 2px;
   width: 90%;
-  margin: 0px 0% 0px 7%;
+  margin: 0px 2% 0px 10%;
   flex-direction: row;
 }
 
 @media screen and (max-width: 900px) {
   #logo {
-    width: 55px;
+    width: 45px;
     margin-left: 3%;
   }
   #top {
@@ -168,6 +165,7 @@ a {
 #Musaic_Cover_Photo {
   display: flex;
   align-items: center;
+  width:50%;
 }
 
 #Musaic_Cover_Photo img {
@@ -179,11 +177,9 @@ a {
   #top {
     flex-direction: column;
   }
-}
-
-#Musaic_Cover_Photo {
-  display: flex;
-  max-width: 100%;
+  #Musaic_Cover_Photo {
+  	width:90%;
+  }
 }
 
 #Statement {
@@ -191,7 +187,7 @@ a {
   flex-direction: column;
   font-size: 18px;
   width: 50%;
-  padding: 5%;
+  padding: 5% 5% 5% 5%;
 }
 
 #Statement span {
@@ -199,6 +195,8 @@ a {
   font-size: 27px;
   align-content: center;
   justify-content: center;
+  align-items: center;
+  margin: auto;
   /*text-align: center;*/
 }
 

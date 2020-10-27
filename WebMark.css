@@ -48,7 +48,7 @@ body {
   align-items: flex-start;
   margin-right: auto;
   cursor: pointer;
-  width: 75px;
+  width: 55px;
 }
 
 .menu {
@@ -152,6 +152,16 @@ body {
   flex-direction: row;
 }
 
+@media screen and (max-width: 900px) {
+  #logo {
+    width: 45px;
+    margin-left: 3%;
+  }
+  #top {
+    width: 90%;
+  }
+}
+
 #Cover_Photo {
   display: flex;
   align-items: center;
@@ -192,6 +202,8 @@ body {
   font-size: 27px;
   align-content: center;
   justify-content: center;
+  align-items: center;
+  margin: auto;
   /*text-align: center;*/
 }
 
