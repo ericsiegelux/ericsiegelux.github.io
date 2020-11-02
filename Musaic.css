@@ -293,6 +293,12 @@ body {
   display: flex;
   padding: 0px 5%;
   flex-direction: column;
+  margin-bottom: -5px;
+}
+
+.content h4 {
+  display: flex;
+  margin-bottom: -5px;
 }
 
 #content_pic {
