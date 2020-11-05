@@ -171,15 +171,17 @@ body {
 }
 
 #top_sub2 {
-  margin: -20px 0px;
+  margin: -10px 0px;
   font-size: 24px;
   font-weight: 500;
+  width:70%;
 }
 
 @media screen and (max-width: 500px) {
   #top_sub1,
   #top_sub2 {
     font-size: 20px;
+    width:100%;
   }
 }
 
