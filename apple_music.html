@@ -3,11 +3,11 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta property="og:title" content="Eric Siegel's UX Portfolio" />
+      <meta property="og:title" content="Apple Music Redesign" />
       <meta property="og:image" content="logoii.png" />
       <meta property="og:url" content="http://siegelux.com" />
       <link rel="shortcut icon" href="tab_icon.png" type="image/png">
-      <title>Eric Siegel's UX Portfolio</title>
+      <title>Apple Music Redesign | Eric Siegel's UX Portfolio</title>
       <link rel="stylesheet" href="apple_music.css">
       <script src="navbar.js"></script>
    </head>
@@ -35,12 +35,14 @@
       <div id="top">
          <div id="Cover_Photo">
             <a href="">
-            <img src="">
+            <img src="apple_music/am_cover.png">
             </a>
          </div>
          <div id = "Statement">
-            <span></span>
-            <p> </p>
+            <span style="font-size: 20px;">
+               <span style="font-weight:bold">Apple Music Profile Redesign</span>
+               Adding more social features too Apple Music's user profiles
+            </span>
          </div>
       </div>
       <div id="work">
@@ -48,7 +50,7 @@
             <div class="column_section">
                <span style="text-decoration: underline;">Duration</span>
                <div class="work_item">
-                  TBD
+                  4 weeks
                </div>
             </div>
             <div class="column_section">
@@ -60,7 +62,7 @@
             <div class="column_section">
                <span style="text-decoration: underline;">Tools</span>
                <div class="work_item">
-                  HTML, CSS, Javascript, Firebase, Sketch 
+                  Sketch, Figma
                </div>
             </div>
             <div class="column_section">
@@ -78,7 +80,7 @@
          </div>
       </div>
       <div class="content">
-         <h1>Problem Statement</h1>
+         <h1>The Problem</h1>
          <div class = "content_statement">
             <p>
             Apple Music is a streaming service that allows users to listen to 70 million songs. Its main features include the ability to download tracks and play them offline, listening across devices, personalized music recommendations, and curated playlists from its editors. <br><br>
@@ -174,14 +176,67 @@
       </div>
 
       <div class="content">
-         <h1>Wireframes</h1>
+         <h1>Validation Testing My Wireframes</h1>
+
          <div class = "content_statement">
-         <p></p>
-         <div id="content_pic">
-               <a>
-                  <img src="">
-               </a>
-            </div>
+         <h4>The Validation Test</h4>
+         <p>With this case study, I wanted to validate my wireframes before creating a high fidelity prototype to make sure the implementations of my ideas were well received. <br><br>
+          In order to expediate the process of getting feedback from Apple Music Users, I created a <a href="https://www.youtube.com/embed/LKVaVt58JdI">YouTube video</a> of my lofi wireframes in a prototype:
+         </p>
+         <iframe  src="https://www.youtube.com/embed/LKVaVt58JdI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+
+         
+         <div class = "content_statement">
+            <h4>Key Feedback From Testing</h4>
+            <p>Here are some recurring notes and criticisms I was given from my 8 validation tests:</p>
+            <div id="content_pic">
+                  <a>
+                     <img src="apple_music/quotes.png">
+                  </a>
+               </div>
+
+          <h4>Last Minute Changes Before Hi-Fi Prototype</h4>
+            <p>My biggest takeaways from these notes that I would look to implement/ not implement in my final, high fidelity prototype were:</p>
+               <ol>
+                  <li> <span style="font-weight: bold;">Not worrying about getting to the progfile more easily.</span> It doesn't make sense to hold on to the bottom right of the screen to get the pop up of the profile selector. Getting it to make sense would require a redesign of the app's architecture and that is not in the scope of my project.</li>
+                  <li> <span style="font-weight: bold;">The 20 score for each fusion score and total 100 score.</span> While I invision a quantitaive way to match musical taste, the user, as seen in my notes, may deem this as arbitrary and confusing. Apple Music on it's own already conveys sleek design and I don't want to add a layer of unecessary complexity to it with my new feature. A fix for this will be to add a radial fill that acts as a pie chart to show how much two users align in there respective fusion scores.
+                     <div class = "content_statement">
+                        <div id="content_pic">
+                           <a>
+                              <img src="apple_music/fusionchanges.png">
+                           </a>
+                        </div>
+                     </div>
+                  </li>
+                  <li>As for the two reoccuring suggestions, I have two explanations on why I will <span style="font-style: italic;">not</span> be implementing them in my high fidelity prototype:
+                        <ol>
+                           <li>The reason I won't add messaging or reacting to my app comes down to past history with messaging features in music applications, specifically Spotify. In 2017, Spotify <a href="https://musically.com/2017/02/28/spotify-is-removing-its-inbox-and-messaging-feature/#:~:text=%E2%80%9CWe%20are%20currently%20in%20the,feature%20has%20very%20low%20engagement.">discontinued support</a> for it's messaging feature because of it's lack of use and therefore unjustifed cost for supporting the servers for the feature. I want my design to be rooted in reality.</li>
+                           <li>The reason I won't add less controlling for creating a fusion playlist is twofold. Firstly, I wanted to add another layer for the user to add parameters so it is not so easy to accidentally create a fusion playlist, which might be computationally expensive. Secondly, I wanted to incorporate some user engagement in creating an algorithm generated playlist.</li>
+                        </ol>
+                  </li>
+               </ol>
+            
+         </div>
+
+
+      </div>
+
+      <div class="content">
+         <h1>HiFi</h1>
+         <div class = "content_statement">
+            <p>With these considerations in mind, I implemented all of the my previous work into a high fidelity prototype.</p>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F8BC9iwkWJECHfxXSSV3jib%2FApple-Music-HiFi%3Fnode-id%3D2%253A1161%26viewport%3D550%252C490%252C0.09828072041273117%26scaling%3Dmin-zoom" allowfullscreen></iframe>
+
+         </div>
+      </div>
+
+      <div class="content">
+         <h1>What I Learned and Moving Forward</h1>
+         <div class = "content_statement">
+            <p>My goal of this redesign was to implement my own ideas for better social engagement on Apple Music while also putting myself in the shoes of an Apple UI/UX designer by sticking to Apple's standard of excellence in their design. I was happy to receive feedback and recommended changes to make the my redesign more polished and fitting for interested users. I look for resistance to my conventions for ideas and I am proud to have demonstrated some changes from my lo-fi wireframe to my hi-fi prototype. <br><br>
+               Moving forward, I would like to get this idea to someone at Apple Music, as I had most of the people I asked whether I would do so and how excited they would be to see something like this in the app. Apple has already made such significant contributions to the world within multiple disciplines, so possibly furthering that innovation with this redesign idea would help people enjoy music and their experience with Apple Music even more. 
+            </p>
          </div>
       </div>
 

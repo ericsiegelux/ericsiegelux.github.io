@@ -229,22 +229,22 @@ body {
 button {
   margin-top: 20px;
   padding: 10px;
-  width: 150px;
+  width: 175px;
   border: 1px solid #0166CC;
   color: #0166CC;
   background-color: white;
-  border-radius: 2px;
+  border-radius: 6px;
   font-size: 16px;
 }
 
 button:hover {
   margin-top: 20px;
   padding: 10px;
-  width: 150px;
+  width: 175px;
   border: 1px solid #0166CC;
   color: white;
   background-color: #0166CC;
-  border-radius: 2px;
+  border-radius: 6px;
   font-size: 16px;
   cursor: pointer;
   transition-duration: 0.1s;
@@ -443,12 +443,12 @@ button:hover {
   border-color: blue;*/
   height: 300px;
   width: 50%;
+  /*border: 2px solid #0066CC;*/
   margin: 50px 0px;
-  /*/*border: 2px solid #0066CC;*/
   background-image: url("chla2.png");
-  background-size: 100%;
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: 50% 0%;
+  background-size: contain;
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -559,11 +559,6 @@ button:hover {
   transition-duration: 0.25s;
 }
 
-#ga
-/*#logos:hover{
-   background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
-    transition:0.25s;
-}*/
 
 #logos h2 {
   display: none;
@@ -587,6 +582,50 @@ button:hover {
   text-align: center;
 }
 
+#apple_music{
+  display: flex;
+  position: relative;
+  /*border-style: solid;
+  border-width: 2px;
+  border-color: blue;*/
+  height: 300px;
+  width: 50%;
+  /*border: 2px solid #0066CC;*/
+  margin: 50px 0px;
+  background-image: url("apple_music/am_cover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  transition-duration: 0.25s;
+}
+
+
+#apple_music h2 {
+  display: none;
+}
+
+#apple_music:hover h2 {
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+#apple_music p {
+  display: none;
+}
+
+#apple_music:hover p {
+  display: block;
+  color: white;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .work_item {
   display: flex;
   border-style: solid;
@@ -600,7 +639,8 @@ button:hover {
   #musaic,
   #chla,
   #sdt,
-  #logos {
+  #logos,
+  #apple_music {
     margin: 0px 0px;
     width: 100%;
     border: none;
@@ -610,7 +650,8 @@ button:hover {
     #musaic,
     #chla,
     #sdt,
-    #logos {
+    #logos,
+    #apple_music  {
       margin: 0px 0px;
       width: 100%;
     }

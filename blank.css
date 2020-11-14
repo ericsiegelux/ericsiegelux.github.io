@@ -179,16 +179,6 @@ body {
   }
 }
 
-#Cover_Photo {
-  display: flex;
-  max-width: 100%;
-}
-
-#Cover_Photo img {
-  display: flex;
-  max-width: 100%;
-}
-
 #Statement {
   display: flex;
   flex-direction: column;
