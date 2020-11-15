@@ -358,23 +358,25 @@ body {
 .content_statement p a:link {
   font-weight: bold;
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .content_statement p a:visited {
   font-weight: bold;
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .content_statement p a:hover {
   font-weight: bold;
   color: #808080;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .content_statement p a:active {
   text-decoration: none;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 #instruction p {

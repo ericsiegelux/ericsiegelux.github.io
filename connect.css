@@ -196,8 +196,8 @@ body {
 
 #links a:link {
   color: black;
-  text-decoration: none;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 #links a:visited {
@@ -206,7 +206,8 @@ body {
 
 #links a:hover {
   color: #808080;
-  text-decoration: none;
+  text-decoration: underline;
+
 }
 
 #links a:active {

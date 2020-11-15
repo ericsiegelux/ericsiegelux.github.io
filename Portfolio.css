@@ -155,7 +155,7 @@ body {
   border-width: 2px;
   border-color: red;*/
   width: 80%;
-  margin: 0px 20% 0px 5%;
+  margin: 0px 20% 0px 9%;
   padding: 5px 25px;
 }
 
@@ -285,6 +285,7 @@ button:hover {
 .item {
   display: flex;
   flex-direction: row;
+  margin: 0 5%;
 }
 
 @media screen and (max-width: 900px) {
@@ -327,7 +328,7 @@ button:hover {
 
 @media screen and (max-width: 900px) {
   .proj_info {
-    margin: 50px 30px;
+    margin: 50px 0px;
     max-width: 100%;
   }
   .proj_info p {
@@ -336,7 +337,7 @@ button:hover {
   .left {
     display: flex;
     flex-direction: column;
-    margin: 50px 30px;
+    margin: 50px 0px;
     max-width: 100%;
   }
   .left p {
@@ -383,7 +384,7 @@ button:hover {
 
 @media screen and (max-width: 500px) {
   #gallery {
-    padding: 5%;
+    padding: 9%;
     margin: 50px 0px;
   }
 }
@@ -641,18 +642,19 @@ button:hover {
   #sdt,
   #logos,
   #apple_music {
-    margin: 0px 0px;
-    width: 100%;
+    margin: 0px 0px -30px 0px;
+    width: 400px;
     border: none;
     align-self: center;
+    
   }
-  @media screen and (min-width: 600px) {
+  @media screen and (max-width: 600px) {
     #musaic,
     #chla,
     #sdt,
     #logos,
     #apple_music  {
-      margin: 0px 0px;
-      width: 100%;
+      margin: 0px 0px -50px 0px;
+      width: 300px;
     }
     /*ERIC SIEGEL*/

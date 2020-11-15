@@ -221,26 +221,28 @@ body {
   padding: 0% 5% 0% 5%;
 }
 
-#content_statement a:link {
+#Statement a:link {
   font-weight: bold;
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
-#content_statement a:visited {
+#Statement a:visited {
   font-weight: bold;
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
-#content_statement a:hover {
+#Statement a:hover {
   font-weight: bold;
   color: #808080;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
-#content_statement a:active {
+#Statement a:active {
   text-decoration: none;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 1200px) {
